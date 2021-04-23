@@ -1,0 +1,123 @@
+.cp-shop-for-office {
+    display: flex;
+
+    .product-wrap {
+        width: 66.66%;
+
+        .swiper-container {
+            margin: -1.5rem 0 -1.5rem -1.5rem;
+        }
+
+        .swiper-wrapper {
+            flex-direction: column;
+            flex-wrap: wrap;
+            height: 75rem;
+        }
+
+        .swiper-slide {
+            width: 50%;
+            padding: 1.5rem;
+        }
+    }
+
+    .desc-wrap {
+        width: 33.33%;
+        padding-top: 17rem;
+        padding-left: 1.5rem;
+
+        .title {
+            font-size: 3.6rem;
+            color: $clr-h2;
+            font-weight: $font-bold;
+            margin-bottom: 1.4rem;
+        }
+
+        .desc {
+            font-size: 2.1rem;
+            font-weight: $font-medium;
+        }
+
+        .act-wrap {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 2.8rem;
+
+            .bs-btn {
+                margin-bottom: 1.5rem;
+            }
+        }
+    }
+}
+
+// @media screen and (max-width:1024px) and (min-width:768px) {
+//     .cp-footer {
+//         .top-links {
+//             .social-links {
+//                 .icon {
+//                     font-size: 2rem;
+//                     width: 5rem;
+//                     height: 5rem;
+//                 }
+//             }
+//         }
+//     }
+// }
+
+@media screen and (max-width:$xs) {
+    .cp-shop-for-office {
+        display: block;
+
+        .product-wrap {
+            width: 100%;
+
+            .swiper-wrapper {
+                flex-direction: row;
+                height: auto;
+                flex-wrap: nowrap;
+            }
+
+            .swiper-container {
+                margin: 0 -20px;
+                overflow: visible;
+                padding: 0 20px;
+                overflow: hidden;
+            }
+
+            .swiper-slide {
+                padding: 0;
+                width: 24rem;
+            }
+
+            .bs-grid-card {
+                height: 100%;
+            }
+        }
+
+        .desc-wrap {
+            width: 100%;
+            padding-top: 3rem;
+            padding-left: 0;
+
+            .title {
+                font-size: 2.4rem;
+            }
+
+            .desc {
+                font-size: 1.4rem;
+            }
+
+            .act-wrap {
+                justify-content: flex-start;
+
+                .bs-btn {
+                    margin-right: 2rem;
+
+                    &:last-child {
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+    }
+}

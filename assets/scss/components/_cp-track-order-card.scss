@@ -1,0 +1,84 @@
+.cp-track-order-card {
+    padding: 2rem 4rem;
+    background: $clr-white;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 12px 8px rgba(231, 231, 231, 0.5);
+
+    .icon-wrap {
+        width: 10.5rem;
+        margin-right: 5rem;
+    }
+
+    .order-details {
+        margin-right: 4rem;
+
+        .username {
+            font-size: 3.6rem;
+            font-weight: $font-bold;
+            color: $clr-h1;
+            margin-bottom: 0.9rem;
+        }
+
+        .order-status {
+            font-size: 1.8rem;
+            margin-bottom: 0.4rem;
+            font-weight: $font-semibold;
+
+            .order-no {
+                font-weight: $font-bold;
+                color: $clr-h3;
+            }
+        }
+    }
+
+    .action-wrap {
+        display: flex;
+        margin-left: auto;
+
+        .bs-btn {
+            margin-right: 2rem;
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:800px) {
+    .cp-track-order-card {
+        padding: 3rem 1.2rem;
+        flex-direction: column;
+
+        .icon-wrap {
+            min-width: 10.5rem;
+            margin-right: 0;
+            margin-bottom: 1rem;
+        }
+
+        .order-details {
+            margin-right: 0;
+            text-align: center;
+            margin-bottom: 3rem;
+
+            .username {
+                font-size: 2.4rem;
+            }
+
+            .order-status {
+                font-size: 1.4rem;
+            }
+        }
+
+        .action-wrap {
+            margin-left: inherit;
+
+            .bs-btn {
+                margin-right: 1rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:$xs) {}

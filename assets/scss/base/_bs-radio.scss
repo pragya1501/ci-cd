@@ -1,0 +1,21 @@
+.bs-radio {
+    [type="radio"] {
+        position: absolute;
+        left: -9999px;
+    }
+
+    [type="radio"]:checked+label,
+    [type="radio"]:not(:checked)+label {
+        position: relative;
+        padding: 1rem;
+        text-transform: uppercase;
+        cursor: pointer;
+        font-weight: bold;
+        display: inline-block;
+        color: #666;
+    }
+
+    [type="radio"]:checked+label {
+        color: $clr-black
+    }
+}

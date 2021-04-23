@@ -1,0 +1,219 @@
+.cp-giftcard {
+    padding-right: 60%;
+    position: relative;
+
+    .gift-type {
+        padding-top: 1.5rem;
+        width: 82%;
+
+        .item {
+            font-size: 2.4rem;
+            font-weight: $font-medium;
+            text-transform: uppercase;
+            padding: 1rem 0 1.8rem;
+            position: relative;
+            margin-bottom: 1.5rem;
+            cursor: pointer;
+
+            &:before {
+                content: "";
+                width: 0;
+                height: 4px;
+                transition: all 0.2s;
+                position: absolute;
+                bottom: 0.9rem;
+                left: 0;
+            }
+
+            &.selected {
+                font-weight: $font-bold;
+                color: $clr-h1;
+
+                &:before {
+                    width: 5.5rem;
+                    background: $clr-primary2;
+                }
+
+            }
+        }
+
+    }
+
+    .gift-card-wrap {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 50%;
+        margin-top: 2.8rem;
+        margin-right: 10rem;
+        height: calc(100% - 3rem);
+
+        .img-wrap {
+            width: 100%;
+            height: 100%;
+        }
+
+        .gift-card {
+            position: absolute;
+            top: -5rem;
+            right: -10rem;
+            background: #aa5042;
+            height: 23rem;
+            width: 37rem;
+
+            .bs-grid-card {
+                .title {
+                    margin-bottom: 3rem;
+                }
+
+                .icon-wrap {
+                    .icon {
+                        top: 1rem;
+                        font-size: 5rem;
+                        color: $clr-white;
+                    }
+                }
+            }
+        }
+    }
+
+    .other-filter {
+        font-weight: $font-semibold;
+        text-transform: uppercase;
+        border-top: 1px solid $clr-base;
+        padding-top: 2.5rem;
+        width: 82%;
+
+        .filter-title {
+            color: $clr-h1;
+            margin-bottom: 1rem;
+        }
+
+        .filter-wrap {
+            .list {
+                display: flex;
+                flex-wrap: wrap;
+
+                .item {
+                    margin: 0.8rem 1.8rem 0 0;
+                }
+            }
+        }
+
+        span {
+            font-size: 1.2rem;
+            padding: 0.55rem 1.2rem 0.5rem;
+            border: 1px solid $clr-base;
+            display: inline-block;
+            cursor: pointer;
+            transition: all 0.3s;
+
+            &.selected,
+            &:hover {
+                background: $clr-primary;
+                border-color: $clr-primary;
+                color: $clr-white;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:$xs) {
+    .cp-giftcard {
+        padding-right: 0;
+
+        .gift-type {
+            padding-top: 0;
+            width: 100%;
+            display: flex;
+            overflow: auto;
+            -ms-overflow-style: none;
+            /* IE and Edge */
+            scrollbar-width: none;
+            /* Firefox */
+
+            &::-webkit-scrollbar {
+                display: none;
+            }
+
+            .item {
+                font-size: 1.4rem;
+                padding: 0.5rem 0 0.8rem;
+                margin-bottom: 0;
+                margin-right: 2rem;
+
+                span {
+                    white-space: nowrap;
+                }
+
+                &:before {
+                    bottom: 0.2rem;
+                }
+            }
+        }
+
+        .gift-card-wrap {
+            position: relative;
+            right: inherit;
+            top: inherit;
+            width: 100%;
+            margin-top: 7rem;
+            margin-right: 0;
+            height: 19rem;
+
+            .gift-card {
+                position: absolute;
+                top: -5rem;
+                right: 0;
+                height: 13rem;
+                width: 66%;
+                max-width: 25rem;
+
+                .bs-grid-card {
+                    height: 100%;
+
+                    .grid-info {
+                        left: 1.2rem;
+                        right: 1.2rem;
+                        bottom: 0.5rem;
+                    }
+
+                    .title {
+                        margin-bottom: 2rem;
+                    }
+
+                    .icon-wrap {
+                        top: 0.5rem;
+                        right: 1.1rem;
+
+                        .icon {
+                            font-size: 4rem;
+                        }
+                    }
+                }
+            }
+        }
+
+        .other-filter {
+            padding-top: 1.6rem;
+            width: 100%;
+            margin-top: 2.8rem;
+
+            .filter-title {
+                margin-bottom: 1rem;
+            }
+
+            .filter-wrap {
+                .list {
+                    .item {
+                        margin: 0.6rem 1.5rem 0 0;
+                    }
+                }
+            }
+
+            span {
+                padding: 0.33rem 0.6rem .4em;
+            }
+        }
+    }
+}

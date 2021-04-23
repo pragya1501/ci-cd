@@ -1,0 +1,126 @@
+.bs-banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -1.5rem;
+
+    .column {
+        width: 50%;
+        padding: 0 1.5rem;
+    }
+
+    .banner-slide {
+        margin-bottom: 3rem;
+        position: relative;
+
+        &:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            opacity: 0.4;
+            background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), #000000);
+        }
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        .link {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+        }
+
+        .info-wrap {
+            position: absolute;
+            bottom: 3.6rem;
+            left: 3.6rem;
+            right: 3.6rem;
+            color: $clr-white;
+            letter-spacing: -1px;
+
+            .title {
+                font-size: 15rem;
+                display: block;
+                font-family: $font2;
+                font-weight: normal;
+                text-transform: lowercase;
+            }
+
+            .sub-title {
+                margin: 5rem 0 2.5rem;
+                font-weight: $font-bold;
+                font-size: 3.6rem;
+            }
+
+            .sub-text {
+                display: flex;
+                align-items: center;
+                font-size: 2.1rem;
+                letter-spacing: -0.44px;
+                font-weight: $font-medium;
+                line-height: 2.5rem;
+
+                .icon {
+                    font-size: 2.5rem;
+                    font-weight: normal;
+                    margin-left: 1.8rem;
+                    margin-top: 0.5rem;
+                }
+            }
+        }
+    }
+
+    .col-2 {
+        margin-top: 6rem;
+    }
+}
+
+@media screen and (max-width:$xs) {
+    .bs-banner {
+        display: block;
+
+        .column {
+            width: 100%;
+        }
+
+        .banner-slide {
+            margin-bottom: 1.5rem;
+
+            .info-wrap {
+                bottom: 3rem;
+                left: 3rem;
+                right: 3rem;
+
+                .title {
+                    font-size: 10rem;
+                }
+
+                .sub-title {
+                    font-size: 2.1rem;
+                    margin: 5rem 0 1.2rem;
+                    letter-spacing: -0.84px;
+                }
+
+                .sub-text {
+                    font-size: 1.4rem;
+                    letter-spacing: -0.29px;
+
+                    .icon {
+                        font-size: 2.1rem;
+                        margin-top: 0.2rem;
+                        margin-left: 1.3rem;
+                    }
+                }
+            }
+        }
+
+        .col-2 {
+            margin-top: 1.5rem;
+        }
+    }
+}

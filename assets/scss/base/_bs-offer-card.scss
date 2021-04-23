@@ -1,0 +1,112 @@
+.bs-offer-card {
+    position: relative;
+
+    &:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        opacity: 0.3;
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), #000000);
+    }
+
+    .label {
+        font-size: 1.4rem;
+        font-weight: $font-semibold;
+        background: $clr-primary2;
+        padding: 0.6rem 1.1rem 0.7rem;
+        text-transform: capitalize;
+        position: absolute;
+        top: 3rem;
+        left: 3rem;
+        color: $clr-white;
+    }
+
+    .info-wrap {
+        position: absolute;
+        bottom: 4rem;
+        left: 3rem;
+        right: 3rem;
+        z-index: 1;
+        color: $clr-white;
+        font-size: 2.1rem;
+        font-weight: $font-medium;
+
+        .icon-wrap {
+            margin-bottom: 1.5rem;
+            display: block;
+
+            img {
+                height: 4.5rem;
+                width: auto;
+            }
+        }
+
+        .offer-type {
+            display: block;
+        }
+
+        .offer-title {
+            font-size: 4rem;
+            font-weight: $font-bold;
+        }
+
+        .desc {
+            margin-top: 1.8rem;
+        }
+
+        .tnc-link {
+            margin-top: 2.3rem;
+            display: inline-block;
+            font-size: 1.4rem;
+
+            &:hover {
+                color: $clr-white;
+            }
+        }
+    }
+
+    .a-link {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+    }
+}
+
+@media screen and (max-width:$xs) {
+    .bs-offer-card {
+        .label {
+            font-size: 1.2rem;
+            position: absolute;
+            top: 2rem;
+            left: 2rem;
+            padding: .4rem 0.8rem .6rem;
+            min-width: 8rem;
+            text-align: center;
+        }
+
+        .info-wrap {
+            bottom: 3rem;
+            left: 2rem;
+            right: 2rem;
+            font-size: 1.6rem;
+
+            .offer-title {
+                font-size: 2.4rem;
+            }
+
+            .icon-wrap {
+                margin-bottom: 1.2rem;
+            }
+
+            .desc {
+                margin-top: 1.2rem;
+            }
+        }
+    }
+}

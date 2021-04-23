@@ -1,0 +1,23 @@
+/* config include */
+@import "config/variables";
+@import "config/mixin";
+// @import "config/_reboot";
+
+/* reset files */
+
+@import "base/bs-banner";
+// @import "base/bs-gallery";
+
+
+@import "base/bs-shop-by-brand";
+@import "components/cp-shop-by-theme";
+@import "base/bs-grid-card";
+@import "components/cp-shop-for-office";
+@import "components/cp-giftcard";
+@import "components/cp-category";
+@import "components/cp-your-poll";
+@import "components/cp-collection";
+@import "components/cp-festive-collection";
+@import "components/cp-unique-look";
+@import "components/cp-subscribe";
+@import "components/cp-track-order-card";

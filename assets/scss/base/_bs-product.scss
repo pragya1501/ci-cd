@@ -1,0 +1,412 @@
+.bs-product {
+    position: relative;
+    padding-bottom: 10rem;
+    height: 100%;
+
+    .product-top-info {
+        position: relative;
+        padding-right: 8rem;
+    }
+
+    .title {
+        font-size: 2.4rem;
+        line-height: 3rem;
+        font-weight: $font-bold;
+        text-transform: capitalize;
+        margin-top: 1.2rem;
+    }
+
+    .desc {
+        margin-top: 1rem;
+        font-weight: $font-medium;
+    }
+
+    .tag {
+        position: absolute;
+        right: 0;
+        top: 0.4rem;
+        background: $clr-base-light;
+        padding: 0.4rem 1.1rem 0.6rem;
+        font-size: 1.1rem;
+        text-transform: capitalize;
+        font-weight: $font-medium;
+    }
+
+    .rating {
+        position: absolute;
+        right: 0;
+        top: 0.7rem;
+        font-weight: $font-semibold;
+
+        .icon {
+            color: $clr-primary2;
+            font-size: 1.2rem;
+            margin-right: 0.3rem;
+        }
+    }
+
+    .swatches-wrap {
+        .set-list {
+            display: flex;
+            flex-wrap: wrap;
+
+            .set-item {
+                margin: 0.5rem 1rem 0.5rem 0;
+
+                &.selected {
+                    .set {
+                        background: #d8b065;
+                        color: $clr-white;
+                        border-color: #d8b065;
+                    }
+                }
+            }
+
+            .set {
+                display: inline-block;
+                font-size: 1.2rem;
+                text-transform: uppercase;
+                font-weight: $font-semibold;
+                background: $clr-white;
+                color: $clr-base;
+                padding: 0.4rem 1rem 0.5rem;
+                border: 1px solid $clr-base;
+            }
+        }
+
+        .color-swatch-section {
+            margin-top: 1.2rem;
+
+            label.color {
+                font-size: 1.2rem;
+                display: block;
+                font-weight: $font-medium;
+                margin-bottom: 0.5rem;
+            }
+
+            .swatches {
+                display: flex;
+
+                .color-swatches {
+                    width: 2.5rem;
+                    height: auto;
+                    margin-right: 0.2rem;
+                }
+            }
+        }
+
+        .size-swatch-section {
+            margin-top: 1.2rem;
+
+            .product-sizes {
+                display: flex;
+                flex-wrap: wrap;
+
+                .size-swatches {
+                    margin: 0.5rem 1rem 0.5rem 0;
+                }
+
+                .swatch-value {
+                    display: inline-block;
+                    font-size: 1.2rem;
+                    text-transform: uppercase;
+                    font-weight: $font-semibold;
+                    background: $clr-white;
+                    color: $clr-base;
+                    padding: 0.4rem 1rem 0.5rem;
+                    border: 1px solid $clr-base;
+
+                    &.selected {
+                        background: #d8b065;
+                        color: $clr-white;
+                        border-color: #d8b065;
+                    }
+                }
+
+                .unselectable {
+                    cursor: not-allowed;
+                }
+
+            }
+        }
+    }
+
+
+
+    .set-available {
+        margin-top: 1.2rem;
+    }
+
+    .color-used {
+        margin-top: 1.2rem;
+
+        .note {
+            font-size: 1.2rem;
+            display: block;
+            font-weight: $font-medium;
+            margin-bottom: 0.5rem;
+        }
+
+        .list {
+            display: flex;
+
+            .color-item {
+                width: 2.5rem;
+                height: 2.5rem;
+                background: red;
+
+                +.color-item {
+                    margin-left: 0.2rem;
+                }
+            }
+        }
+    }
+
+    .bs-price-wrap {
+        margin-top: 1.8rem;
+    }
+
+    .prod-tag {
+        font-weight: $font-semibold;
+        color: $clr-white;
+        padding: 0.6rem 1.4rem 0.7rem;
+        background: $clr-primary2;
+        text-transform: capitalize;
+        display: inline-block;
+        position: absolute;
+        top: 3rem;
+        left: 2rem;
+    }
+
+    .add-to-wishlist {
+        font-size: 3rem;
+        color: $clr-white;
+        position: absolute;
+        top: 3rem;
+        right: 2rem;
+
+        &.active {
+            color: #dd3f26;
+        }
+    }
+
+    .action-wrap {
+        margin-top: 1.8rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .bottom-wrap {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .bs-btn {
+        font-size: 1.4rem;
+        padding: 0.7rem 1.2rem;
+        margin-right: 1rem;
+    }
+
+    &.typ-big {
+        padding-bottom: 0;
+        color: $clr-white;
+
+        .title {
+            font-size: 3.6rem;
+        }
+
+        .info-wrap {
+            position: absolute;
+            bottom: 3rem;
+            left: 3rem;
+            right: 3rem;
+        }
+
+        .img-wrap {
+            &:before {
+                content: "";
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                opacity: 0.4;
+                background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), #000000);
+            }
+        }
+
+        .rating {
+            color: $clr-white;
+        }
+
+        .tag {
+            color: $clr-base;
+        }
+
+        .swatches-wrap {
+            .set-list {
+                .set {
+                    border-color: $clr-white;
+                }
+            }
+        }
+
+        .bottom-wrap {
+            display: flex;
+            justify-content: space-between;
+            position: static;
+            margin-top: 1.5rem;
+        }
+
+        .bs-price-wrap {
+
+            .new-price,
+            .old-price {
+                color: $clr-white;
+            }
+        }
+
+        .bs-price-wrap,
+        .action-wrap {
+            margin-top: 0;
+        }
+
+        .bs-btn {
+            color: $clr-h1;
+            background: $clr-white;
+            border-color: $clr-white;
+
+            &:hover {
+                background: $clr-primary;
+                color: $clr-white;
+                border-color: $clr-primary;
+            }
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: $clr-white;
+
+            &:hover {
+                background: $clr-primary;
+                color: $clr-white;
+                border-color: $clr-primary;
+            }
+        }
+
+        .prod-tag {
+            left: 3rem;
+        }
+
+        .add-to-wishlist {
+            right: 3rem;
+        }
+    }
+}
+
+@media screen and (max-width:800px) {
+    .bs-product {
+        padding-bottom: 7.6rem;
+
+        .product-top-info {
+            padding-right: 7.5rem;
+        }
+
+        .title {
+            font-size: 1.8rem;
+            line-height: 2rem;
+        }
+
+        .desc {
+            margin-top: 0.6rem;
+            font-size: 1.2rem;
+        }
+
+        .swatches-wrap {
+            .set-list {
+                .set {
+                    padding: 0.3rem 0.7rem 0.4rem;
+                }
+            }
+
+            .color-swatch-section {
+                margin-top: 0.8rem;
+
+                label.color {
+                    font-size: 1.1rem;
+                }
+
+                .swatches {
+                    .color-swatches {
+                        width: 1.4rem;
+                        height: 1.4rem;
+
+                    }
+                }
+            }
+
+            .size-swatch-section {
+                margin-top: 0.8rem;
+
+                .product-sizes {
+
+                    .size-swatches {
+                        margin: 0.5rem 1rem 0.5rem 0;
+                    }
+                }
+            }
+        }
+
+
+
+        .action-wrap,
+        .bs-price-wrap {
+            margin-top: 1rem;
+        }
+
+        .tag {
+            padding: 0.4rem 0.7rem 0.6rem;
+        }
+
+        .prod-tag {
+            padding: 0.5rem 1.4rem 0.6rem;
+            font-size: 1.2rem;
+            top: 2rem;
+        }
+
+        .add-to-wishlist {
+            top: 2rem;
+            font-size: 2.5rem;
+        }
+
+        &.typ-big {
+            .info-wrap {
+                left: 2rem;
+                right: 2rem;
+            }
+
+            .title {
+                font-size: 2.1rem;
+                line-height: 2.5rem;
+            }
+
+            .bottom-wrap {
+                display: block;
+            }
+
+            .bs-price-wrap {
+                margin-bottom: 1.8rem;
+            }
+
+            .prod-tag {
+                left: 2rem;
+            }
+
+            .add-to-wishlist {
+                right: 2rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,319 @@
+//cp-your-poll
+.cp-your-poll {
+    position: relative;
+    background: $clr-primary;
+    padding: 9rem 0;
+    color: $clr-white;
+
+    .your-poll-inner {
+        position: relative;
+    }
+
+    .title {
+        font-size: 15rem;
+        line-height: 12rem;
+        font-family: $font2;
+        color: $clr-white;
+        margin-bottom: 1.5rem;
+    }
+
+    .selection {
+        position: absolute;
+        width: 50%;
+        left: 50%;
+        top: 50%;
+        z-index: 2;
+        transform: translateY(-50%);
+
+        .title {
+            font-size: 2.4rem;
+            line-height: 2.6rem;
+            margin-bottom: 2.6rem;
+            font-family: $font1;
+            font-weight: $font-semibold;
+        }
+    }
+
+    .poll-info {
+        width: 50%;
+        height: 100%;
+        padding-right: 6rem;
+        margin-top: 7rem;
+
+        .sub-title {
+            font-size: 3.6rem;
+            line-height: 3.8rem;
+            font-weight: $font-bold;
+
+            .small {
+                font-size: 2.1rem;
+                display: block;
+                font-weight: $font-medium;
+            }
+        }
+
+        p {
+            font-size: 2.1rem;
+            font-weight: $font-medium;
+            margin: 2rem 0;
+        }
+
+        .thumb-list {
+            display: flex;
+            margin: 0 -1rem 2rem;
+
+            li {
+                margin: 0 1rem;
+
+                a {
+                    width: 5rem;
+                    height: 5rem;
+                    border: 1px solid $clr-white;
+                    display: block;
+                }
+            }
+        }
+    }
+
+    .bs-thum-card {
+        background: $clr-white;
+        color: $clr-base;
+
+        .bs-radio {
+            &.typ2 {
+                label {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    bottom: 0;
+                    left: 0;
+                    z-index: 2;
+                    background: url(../images/unchecked.svg) no-repeat 94% 5% transparent;
+                }
+
+                [type=radio]:checked+label {
+                    background: url(../images/checked.svg) no-repeat 94% 5% transparent;
+                }
+            }
+        }
+
+        .img {
+            position: relative;
+
+            img {
+                opacity: 1;
+            }
+
+            .percent {
+                display: none;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                font-size: 6rem;
+                line-height: 6.2rem;
+                font-weight: $font-bold;
+                transform: translate(-50%, -50%);
+                color: #363636;
+                text-shadow: 0rem 0rem 0.3rem $clr-white;
+            }
+        }
+
+        .range-slider {
+            display: none;
+            height: 1rem;
+            width: 100%;
+            background: $clr-base-light;
+
+            .bar {
+                height: 1rem;
+                width: 60%;
+                background: #b7d461;
+                display: block;
+            }
+        }
+
+        .rel-info {
+            padding: 1.6rem 1.2rem;
+
+            .title {
+                font-size: 1.8rem;
+                line-height: 2rem;
+                margin-bottom: 0.4rem;
+                font-weight: $font-bold;
+                color: $clr-h1;
+            }
+
+            p {
+                font-size: 1.4rem;
+                line-height: 1.6rem;
+                font-weight: $font-semibold;
+                color: $clr-base;
+            }
+        }
+    }
+
+    .hide-show1 {
+        display: block;
+    }
+
+    .hide-show2 {
+        display: none;
+    }
+
+    &.active {
+        .hide-show1 {
+            display: none;
+        }
+
+        .hide-show2 {
+            display: block;
+        }
+
+        .bs-thum-card {
+            .img {
+                img {
+                    opacity: 0.5;
+                }
+
+                .percent {
+                    display: block;
+                }
+            }
+
+            .range-slider {
+                display: block;
+            }
+
+            .bs-radio {
+                &.typ2 {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:$xs) {
+    .cp-your-poll {
+        padding: 1rem 0 4rem 0;
+
+        .title {
+            font-size: 10rem;
+            line-height: 12rem;
+        }
+
+        .selection {
+            position: relative;
+            top: auto;
+            left: auto;
+            transform: none;
+            width: 100%;
+
+            .title {
+                font-size: 1.4rem;
+                line-height: 1.6rem;
+                margin-bottom: 1.6rem;
+            }
+        }
+
+        .bs-thum-card {
+            display: flex;
+            position: relative;
+
+            .img {
+                width: 28rem;
+
+                img {
+                    height: 100%;
+                }
+
+                .percent {
+                    font-size: 3rem;
+                    line-height: 3.2rem;
+                }
+            }
+
+            .bs-radio {
+                &.typ2 {
+                    label {
+                        background-size: 7% !important;
+                        background-position: 97% 9% !important;
+                    }
+                }
+            }
+
+            .rel-info {
+                .title {
+                    font-size: 1.4rem;
+                    line-height: 1.6rem;
+                    padding-right: 5rem;
+                    margin-bottom: 1rem;
+                }
+
+                p {
+                    font-size: 1.2rem;
+                    line-height: 1.5rem;
+                }
+            }
+
+            .range-slider {
+                position: absolute;
+                right: 0;
+                left: 0;
+                bottom: 0;
+            }
+        }
+
+        .swiper-container {
+            margin: 0 -20px 0;
+            padding: 0 20px;
+
+            .swiper-slide {
+                width: 85%;
+            }
+        }
+
+        .poll-info {
+            width: 100%;
+            padding-right: 0;
+            margin-top: 2rem;
+
+            .sub-title {
+                font-size: 2.4rem;
+                line-height: 2.6rem;
+
+                .small {
+                    font-size: 1.4rem;
+                }
+            }
+
+            p {
+                font-size: 1.4rem;
+                line-height: 1.8rem;
+                margin: 1.4rem 0;
+            }
+
+            .thumb-list {
+                margin: 0 -0.5rem 2rem;
+
+                li {
+                    margin: 0 0.5rem;
+                }
+            }
+        }
+
+        &.active {
+            .bs-thum-card {
+                padding-bottom: 0.8rem;
+
+                .range-slider {
+                    height: 0.8rem;
+
+                    .bar {
+                        height: 0.8rem;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+/* config include */
+@import "config/variables";
+@import "config/mixin";
+// @import "config/_reboot";
+
+/* reset files */
+@import "base/reset.local";
+@import "base/base-setup";
+@import "base/bs-btn";
+@import "base/bs-radio";
+
+@import "base/bs-section";
+@import "base/bs-offer-card";
+@import "base/bs-product";
+@import "base/bs-price-wrap";
+
+@import "components/cp-header";
+@import "components/cp-footer";
+
+
+
+@import "extended/swiper";
+
+//  home page css

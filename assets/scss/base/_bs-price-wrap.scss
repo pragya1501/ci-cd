@@ -1,0 +1,39 @@
+.bs-price-wrap {
+    font-size: 2.4rem;
+    font-weight: $font-bold;
+    display: flex;
+    align-items: center;
+    color: $clr-h1;
+
+    .new-price {
+        margin-right: 1.2rem;
+        display: inline-flex;
+        align-items: center;
+
+        .icon {
+            font-weight: bold;
+        }
+    }
+
+    .icon {
+        font-size: 1.7rem;
+    }
+
+    .old-price {
+        font-weight: $font-medium;
+        text-decoration: line-through;
+        display: inline-flex;
+        align-items: center;
+        color: $clr-base;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .bs-price-wrap {
+        font-size: 1.8rem;
+
+        .icon {
+            font-size: 1.3rem;
+        }
+    }
+}

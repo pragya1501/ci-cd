@@ -1,0 +1,34 @@
+.bs-shop-by-brand {
+
+    .brand-logo {
+        border: 1px solid #ccc;
+        padding: 1rem;
+        display: flex;
+        justify-content: center;
+
+        img {
+            max-height: 10rem;
+            width: auto;
+        }
+    }
+
+    .brand-name {
+        padding: 1.3rem 0 0;
+        font-weight: $font-semibold;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .bs-shop-by-brand {
+        .brand-logo {
+            img {
+                max-height: 7rem;
+            }
+        }
+
+        .brand-name {
+            padding: 1rem 0 0;
+        }
+    }
+}

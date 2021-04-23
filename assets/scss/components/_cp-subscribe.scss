@@ -1,0 +1,108 @@
+.cp-subscribe {
+    background: $clr-base-light url(../images/subscribe-bg.svg) right center no-repeat;
+    background-size: contain;
+
+    .subscribe-inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .left-wrap {
+        color: $clr-h2;
+        width: 48%;
+
+        .title {
+            font-size: 15rem;
+            font-family: $font2;
+            letter-spacing: -3px;
+            margin: 4rem 0;
+        }
+
+        .subtitle {
+            font-size: 3.6rem;
+            font-weight: $font-bold;
+        }
+    }
+
+    .right-wrap {
+        width: 48%;
+
+        .form-control {
+            padding: 2rem 13rem 2rem 2.5rem;
+            border: 0;
+            outline: none;
+            font-weight: $font-medium;
+            font-size: 2.1rem;
+            box-shadow: 0 0 12px 8px rgba(231, 231, 231, 0.5);
+            color: $clr-base;
+            font-family: $font1;
+            width: 100%;
+
+            &:focus {
+                outline: none;
+            }
+        }
+
+        .input-wrap {
+            position: relative;
+        }
+
+        .btn-subscribe {
+            position: absolute;
+            right: 2.5rem;
+            text-transform: uppercase;
+            font-size: 1.8rem;
+            top: 2rem;
+            font-family: $font1;
+            color: #038575;
+            font-weight: $font-medium;
+        }
+    }
+}
+
+@media screen and (max-width:$xs) {
+    .cp-subscribe {
+        background-size: 26rem;
+        background-position: bottom right;
+
+        .subscribe-inner {
+            display: block;
+        }
+
+        .left-wrap {
+            color: $clr-h2;
+            width: 100%;
+            margin-bottom: 11rem;
+
+            .title {
+                font-size: 6rem;
+                letter-spacing: -1px;
+                margin: 1rem 0;
+            }
+
+            .subtitle {
+                letter-spacing: 0;
+                font-size: 2.4rem;
+            }
+        }
+
+        .right-wrap {
+            width: 100%;
+            margin-bottom: 2.5rem;
+
+            .form-control {
+                padding: 2rem 11rem 2rem 2rem;
+                font-size: 1.4rem;
+
+            }
+
+
+            .btn-subscribe {
+                right: 2rem;
+                font-size: 1.4rem;
+                top: 2rem;
+            }
+        }
+    }
+}

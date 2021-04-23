@@ -1,0 +1,2085 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Demo page</title>
+    <meta name="description" content="description goes here">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/icomoon.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/calligraphy-font.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/global.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/homepage.css">
+</head>
+
+<body>
+    <main>
+        <header>
+            <div class="cp-header">
+                <div class="container">
+                    <div class="top-links">
+                        <ul class="list">
+                            <li class="item"><a href="#">Yarn</a></li>
+                            <li class="item"><a href="#">chemical</a></li>
+                            <li class="item"><a href="#">corporate</a></li>
+                        </ul>
+                    </div>
+                    <div class="top-wrap">
+                        <span class="hamburger-menu">
+                            <span class="icon icon-hamburger"></span>
+                        </span>
+                        <div class="logo-wrap">
+                            <a href="#" class="logo">
+                                <img src="assets/images/logo.svg" alt="">
+                            </a>
+                        </div>
+
+                        <div class="other-links">
+                            <div class="search-wrap">
+                                <span class="search-btn"><span class="icon icon-search"></span></span>
+                                <div class="search-field-wrap">
+                                    <div class="input-wrap">
+                                        <input type="text" name="" id="">
+                                        <button class="search-btn"><span class="icon icon-search"></span></button>
+                                        <span class="close-search icon icon-close"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="user-account">
+                                <span class="acc-link">
+                                    <span class="icon icon-profile"></span>
+                                    <span class="text">
+                                        <span class="welcome">Welcome</span>
+                                        <span class="username">Username</span>
+                                    </span>
+                                </span>
+                                <div class="dropdown-links">
+                                    <ul class="list">
+                                        <li class="item"><a href="#">Link 1</a></li>
+                                        <li class="item"><a href="#">Link 2</a></li>
+                                        <li class="item"><a href="#">Link 3</a></li>
+                                        <li class="item"><a href="#">logout</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="cart-link">
+                                <a href="#"><span class="icon icon-cart"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom-wrap">
+                    <div class="container">
+                        <div class="bottom-inner">
+                            <div class="bs-nav">
+                                <p class="welcome-text">welcome user</p>
+                                <h3 class="user-name">Bhavesh</h3>
+                                <span class="close-menu"><span class="icon icon-close"></span></span>
+                                <nav class="navbar">
+                                    <div class="row-item">
+                                        <ul class="list">
+                                            <li class="item parent">
+                                                <a href="" class="nav-link">HOME & LIVING</a><span class="arrow"></span>
+                                                <div class="submenu">
+                                                    <div class="container">
+                                                        <div class="submenu-inner">
+                                                            <div class="cat-img">
+                                                                <div class="img-wrap">
+                                                                    <img src="assets/images/home-living.jpg" alt="">
+                                                                </div>
+                                                                <div class="cat-desc">
+                                                                    <h3 class="cat-type">Comfort</h3>
+                                                                    <h2 class="cat-name">HOME & LIVING</h2>
+                                                                </div>
+                                                            </div>
+                                                            <ul class="cat-list">
+                                                                <li class="item">
+                                                                    <h3 class="cat-name">
+                                                                        <span class="icon icon-bedding"></span>
+                                                                        <span class="title">bedding</span>
+                                                                    </h3>
+                                                                    <ul class="list">
+                                                                        <li class="item"><a href=""
+                                                                                class="nav-link level2">Inner links</a>
+                                                                        </li>
+                                                                        <li class="item"><a href=""
+                                                                                class="nav-link level2">Inner links
+                                                                                Inner links Inner links</a>
+                                                                        </li>
+                                                                        <li class="item"><a href=""
+                                                                                class="nav-link level2">Inner links</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </li>
+                                                                <li class="item">
+                                                                    <h3 class="cat-name">
+                                                                        <span class="icon icon-bedding"></span>
+                                                                        <span class="title">bedding</span>
+                                                                    </h3>
+                                                                    <ul class="list">
+                                                                        <li class="item"><a href=""
+                                                                                class="nav-link level2">Inner links</a>
+                                                                        </li>
+                                                                        <li class="item"><a href=""
+                                                                                class="nav-link level2">Inner links</a>
+                                                                        </li>
+                                                                        <li class="item"><a href=""
+                                                                                class="nav-link level2">Inner links</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </li>
+                                                                <li class="item">
+                                                                    <h3 class="cat-name">
+                                                                        <span class="icon icon-bedding"></span>
+                                                                        <span class="title">bedding</span>
+                                                                    </h3>
+                                                                    <ul class="list">
+                                                                        <li class="item"><a href=""
+                                                                                class="nav-link level2">Inner links</a>
+                                                                        </li>
+                                                                        <li class="item"><a href=""
+                                                                                class="nav-link level2">Inner links
+                                                                                Inner links Inner links</a>
+                                                                        </li>
+                                                                        <li class="item"><a href=""
+                                                                                class="nav-link level2">Inner links</a>
+                                                                        </li>
+                                                                        <li class="item"><a href=""
+                                                                                class="nav-link level2">Inner links</a>
+                                                                        </li>
+                                                                        <li class="item"><a href=""
+                                                                                class="nav-link level2">Inner links
+                                                                                Inner links Inner links</a>
+                                                                        </li>
+                                                                        <li class="item"><a href=""
+                                                                                class="nav-link level2">Inner links</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </li>
+
+                                                                <li class="item">
+                                                                    <h3 class="cat-name">
+                                                                        <span class="icon icon-bedding"></span>
+                                                                        <span class="title">bedding</span>
+                                                                    </h3>
+                                                                    <ul class="list">
+                                                                        <li class="item"><a href=""
+                                                                                class="nav-link level2">Inner links</a>
+                                                                        </li>
+                                                                        <li class="item"><a href=""
+                                                                                class="nav-link level2">Inner links</a>
+                                                                        </li>
+                                                                        <li class="item"><a href=""
+                                                                                class="nav-link level2">Inner links</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </li>
+
+                                                                <li class="item">
+                                                                    <h3 class="cat-name">
+                                                                        <span class="icon icon-bedding"></span>
+                                                                        <span class="title">bedding</span>
+                                                                    </h3>
+                                                                    <ul class="list">
+                                                                        <li class="item"><a href=""
+                                                                                class="nav-link level2">Inner links</a>
+                                                                        </li>
+                                                                        <li class="item"><a href=""
+                                                                                class="nav-link level2">Inner links</a>
+                                                                        </li>
+                                                                        <li class="item"><a href=""
+                                                                                class="nav-link level2">Inner links</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </li>
+                                                                <li class="item">
+                                                                    <h3 class="cat-name">
+                                                                        <span class="icon icon-bedding"></span>
+                                                                        <span class="title">bedding</span>
+                                                                    </h3>
+                                                                    <ul class="list">
+                                                                        <li class="item"><a href=""
+                                                                                class="nav-link level2">Inner links</a>
+                                                                        </li>
+                                                                        <li class="item"><a href=""
+                                                                                class="nav-link level2">Inner links</a>
+                                                                        </li>
+                                                                        <li class="item"><a href=""
+                                                                                class="nav-link level2">Inner links</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="item">
+                                                <a href="" class="nav-link">STATIONERY</a><span class="arrow"></span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="row-item">
+                                        <ul class="list">
+                                            <li class="item parent">
+                                                <a href="" class="nav-link">gifting</a>
+                                            </li>
+                                            <li class="item parent">
+                                                <a href="" class="nav-link">offers</a>
+                                            </li>
+                                            <li class="item parent">
+                                                <a href="" class="nav-link">craziness</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </nav>
+                            </div>
+                            <div class="right-links">
+                                <div class="location-wrap">
+                                    <span class="icon icon-location"></span>
+                                    <span class="cur-location">Delivering to <span class="pincode">400071</span></span>
+                                </div>
+                                <div class="help-wrap">
+                                    <a href="" class="help-link"><span class="icon icon-help"></span> Help</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="bs-section">
+            <div class="container">
+                <div class="cp-track-order-card">
+                    <div class="icon-wrap">
+                        <img src="assets/images/track-order.svg" alt="">
+                    </div>
+                    <div class="order-details">
+                        <h2 class="username">Hey Krutika </h2>
+                        <h3 class="order-status">Your Order <span class="order-no">3469d-AD57903</span> is on it’s way
+                            and reaching you soon!</h3>
+                    </div>
+                    <div class="action-wrap">
+                        <button class="bs-btn btn-brdr"><span class="text">Get Help</span><span
+                                class="icon icon-right-arrow"></span></button>
+                        <button class="bs-btn btn-brdr"><span class="text">TRACK ORDER</span><span
+                                class="icon icon-right-arrow"></span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bs-section cp-subscribe">
+            <div class="container">
+                <div class="subscribe-inner">
+                    <div class="left-wrap">
+                        <h2 class="title">Subscribe </h2>
+                        <h3 class="subtitle">For updates & newsletters</h3>
+                    </div>
+                    <div class="right-wrap">
+                        <div class="input-wrap">
+                            <input type="text" class="form-control">
+                            <button class="btn-subscribe">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bs-section">
+            <div class="container">
+                <div class="cp-unique-look">
+                    <div class="column">
+                        <div class="banner-slide">
+                            <div class="img-wrap">
+                                <img src="assets/images/slide-1.jpg" alt="">
+                            </div>
+                            <span class="view-360 icon icon-360"></span>
+                            <div class="info-wrap">
+                                <span class="title">bathroom</span>
+                                <div class="act-wrap">
+                                    <a href="#" class="bs-btn btn-brdr typ-white"><span class="text">Explore</span>
+                                        <span class="icon icon-right-arrow"></span></a>
+                                </div>
+                            </div>
+                            <a href="#" class="link"></a>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="banner-slide">
+                            <div class="img-wrap">
+                                <img src="assets/images/slide-1.jpg" alt="">
+                            </div>
+                            <span class="view-360 icon icon-360"></span>
+                            <div class="info-wrap">
+                                <span class="title">living room </span>
+                                <div class="act-wrap">
+                                    <a href="#" class="bs-btn btn-brdr typ-white"><span class="text">Explore</span>
+                                        <span class="icon icon-right-arrow"></span></a>
+                                </div>
+                            </div>
+                            <a href="#" class="link"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bs-section">
+            <div class="container">
+                <div class="cp-festive-collection">
+                    <div class="column">
+                        <div class="banner-slide">
+                            <div class="img-wrap">
+                                <img src="assets/images/slide-1.jpg" alt="">
+                            </div>
+                            <div class="info-wrap">
+                                <span class="title">valentine</span>
+                                <h2 class="sub-title">what are your plans this Valentine?</h2>
+                                <p class="sub-text"><span class="text">Bedsheets under Rs.1299,valid till Feb 6,
+                                        2021</span>
+                                </p>
+                                <div class="act-wrap">
+                                    <a href="#" class="bs-btn btn-brdr typ-white"><span class="text">Explore</span>
+                                        <span class="icon icon-right-arrow"></span></a>
+                                </div>
+                            </div>
+                            <a href="#" class="link"></a>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="banner-slide">
+                            <div class="img-wrap">
+                                <img src="assets/images/slide-1.jpg" alt="">
+                            </div>
+                            <div class="info-wrap">
+                                <span class="title">luxury </span>
+                                <h2 class="sub-title">Celebrate luxury
+                                    with us</h2>
+                                <p class="sub-text"><span class="text">Bedsheets under Rs.1299,valid till Feb 6,
+                                        2021</span>
+                                </p>
+                                <div class="act-wrap">
+                                    <a href="#" class="bs-btn btn-brdr typ-white"><span class="text">Explore</span>
+                                        <span class="icon icon-right-arrow"></span></a>
+                                </div>
+                            </div>
+                            <a href="#" class="link"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bs-section">
+            <div class="cp-collection">
+                <div class="container">
+                    <div class="collection-inner">
+                        <div class="infographic-wrap">
+                            <div class="top-img">
+                                <img src="assets/images/collection-top-img.jpg" alt="">
+                                <span class="color1 color-used" style="background:#e1bbbb"></span>
+                                <span class="color2 color-used" style="background:#dea73e"></span>
+                            </div>
+                            <div class="bottom-img">
+                                <img src="assets/images/collection-bottom-img.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="left-wrap">
+                            <h3 class="title">collection</h3>
+                            <h4 class="sub-title">
+                                <span class="small">Best Seller</span>
+                                <span>The block print collection</span>
+                            </h4>
+                            <div class="hide-show1">
+                                <p>Featuring community-curated sets, lustrous pearls, golden cuffs and danglers
+                                    provide
+                                    perennial style pieces that come together</p>
+                            </div>
+                            <div class="act-wrap">
+                                <button class="bs-btn btn-brdr typ-white">
+                                    <span class="text">Explore</span>
+                                    <span class="icon icon-right-arrow"></span>
+                                </button>
+                                <button class="bs-btn btn-brdr typ-white">
+                                    <span class="text">Explore</span>
+                                    <span class="icon icon-right-arrow"></span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bs-section">
+            <div class="container">
+                <div class="sec-head">
+                    <div class="title-desc-wrap">
+                        <h2 class="sec-title"> Gift your <span class="highlight">Loved ones</span>
+                        </h2>
+                    </div>
+                    <a href="#" class="bs-btn btn-link"><span class="text">RECEIVED A GIFT CARD?</span><span
+                            class="icon icon-right-arrow"></span></a>
+                </div>
+                <div class="sec-cont">
+                    <div class="cp-giftcard">
+                        <ul class="list gift-type">
+                            <li class="item"><span class="filter-item">Birthdays</span></li>
+                            <li class="item selected"><span class="filter-item">Christmas</span></li>
+                            <li class="item"><span class="filter-item">Weddings</span></li>
+                            <li class="item"><span class="filter-item">House warming</span></li>
+                        </ul>
+                        <div class="gift-card-wrap">
+                            <div class="img-wrap set-bg">
+                                <img src="assets/images/giftcard-bg.jpg" class="fetch-img-src" alt="">
+                            </div>
+                            <div class="gift-card">
+                                <div class="bs-grid-card">
+                                    <div class="grid-info">
+                                        <h2 class="title">gift</h2>
+                                        <p class="desc"><span class="text">Shop a gift card</span> <span
+                                                class="icon icon-right-arrow"></span>
+                                        </p>
+                                    </div>
+                                    <div class="icon-wrap">
+                                        <span class="icon icon-gift"></span>
+                                    </div>
+                                    <a href="#" class="a-link"></a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="other-filter">
+                            <h3 class="filter-title">By Gender</h3>
+                            <div class="filter-wrap">
+                                <ul class="list">
+                                    <li class="item"><span class="selected">Gift for her</span></li>
+                                    <li class="item"><span>Gift for him</span></li>
+                                    <li class="item"><span>Gift for others</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bs-section">
+            <div class="cp-your-poll">
+                <div class="container">
+                    <div class="your-poll-inner">
+                        <h3 class="title">opinion</h3>
+                        <div class="selection">
+                            <h4 class="title">Which print do you prefer?</h4>
+                            <div class="swiper-container selection-slider">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="bs-thum-card">
+                                            <div class="bs-radio typ2">
+                                                <input id="pat1" name="pat" type="radio">
+                                                <label for="pat1"></label>
+                                            </div>
+                                            <div class="img">
+                                                <img src="assets/images/selection1.jpg" alt="selection">
+                                                <span class="percent"><span class="number">96</span>%</span>
+                                            </div>
+                                            <div class="range-slider">
+                                                <span class="bar" data-per="96"></span>
+                                            </div>
+                                            <div class="rel-info">
+                                                <h4 class="title">The Asian Fit</h4>
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                    industry.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="bs-thum-card">
+                                            <div class="bs-radio typ2">
+                                                <input id="pat2" name="pat" type="radio">
+                                                <label for="pat2"></label>
+                                            </div>
+                                            <div class="img">
+                                                <img src="assets/images/selection2.jpg" alt="selection">
+                                                <span class="percent"><span class="number">4</span>%</span>
+                                            </div>
+                                            <div class="range-slider">
+                                                <span class="bar" data-per="4"></span>
+                                            </div>
+                                            <div class="rel-info">
+                                                <h4 class="title">The Abstract Fit</h4>
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                    industry.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="poll-info">
+                            <h4 class="sub-title">
+                                <span class="small">The Poll</span>
+                                <span>Your opinion matters</span>
+                            </h4>
+                            <div class="hide-show1">
+                                <p>Help us set the trend for this season and vote for the pattern you would prefer
+                                    to see as a part of
+                                    our next collection</p>
+                                <button class="bs-btn btn-brdr typ-white clck">
+                                    <span class="text">Submit</span>
+                                    <span class="icon icon-right-arrow"></span>
+                                </button>
+                            </div>
+                            <div class="hide-show2">
+                                <p>Explore similar pattern products in our wonderful bedsheet section. Use coupon
+                                    code XXY5678 and
+                                    avail 20% off.</p>
+                                <ul class="thumb-list">
+                                    <li>
+                                        <a href="#">
+                                            <img src="assets/images/img1.jpg" alt="img">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="assets/images/img2.jpg" alt="img">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="assets/images/img3.jpg" alt="img">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="assets/images/img4.jpg" alt="img">
+                                        </a>
+                                    </li>
+                                </ul>
+                                <button class="bs-btn btn-brdr typ-white">
+                                    <span class="text">Explore</span>
+                                    <span class="icon icon-right-arrow"></span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="bs-section">
+            <div class="container">
+                <div class="sec-head">
+                    <div class="title-desc-wrap">
+                        <h2 class="sec-title">
+                            Explore our <span class="highlight">categories</span>
+                        </h2>
+                    </div>
+                    <a href="#" class="bs-btn btn-link"><span class="text">View all</span><span
+                            class="icon icon-right-arrow"></span></a>
+                </div>
+                <div class="sec-cont">
+                    <div class="cp-category">
+                        <div class="col typ-vertical">
+                            <div class="bs-grid-card set-bg">
+                                <div class="img-wrap">
+                                    <img src="assets/images/office-product-2.jpg" class="fetch-img-src" alt="" />
+                                </div>
+                                <div class="icon-wrap">
+                                    <img src="assets/images/icon-bedding.svg" alt="icon-bedding" />
+                                </div>
+                                <div class="grid-info">
+                                    <h2 class="title">bed Linen</h2>
+                                    <p class="desc">
+                                        <span class="text">Bedding, Duvets & Quilts</span>
+                                        <span class="icon icon-right-arrow"></span>
+                                    </p>
+                                </div>
+                                <a href="#" class="a-link"></a>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="col2">
+                                <div class="bs-grid-card set-bg">
+                                    <div class="img-wrap">
+                                        <img src="assets/images/bath.jpg" class="fetch-img-src" alt="" />
+                                    </div>
+                                    <div class="icon-wrap">
+                                        <img src="assets/images/icon-bath.svg" alt="icon-bath" />
+                                    </div>
+                                    <div class="grid-info">
+                                        <h2 class="title">bath</h2>
+                                        <p class="desc">
+                                            <span class="text">Bath towels, Bathrobes</span>
+                                            <span class="icon icon-right-arrow"></span>
+                                        </p>
+                                    </div>
+                                    <a href="#" class="a-link"></a>
+                                </div>
+                                <div class="bs-grid-card set-bg">
+                                    <div class="img-wrap">
+                                        <img src="assets/images/home-decor.jpg" class="fetch-img-src" alt="" />
+                                    </div>
+                                    <div class="icon-wrap">
+                                        <img src="assets/images/icon-cusion-curtain.svg" alt="icon-cusion-curtain" />
+                                    </div>
+                                    <div class="grid-info">
+                                        <h2 class="title">home decor</h2>
+                                        <p class="desc">
+                                            <span class="text">Cushions,Curtains</span>
+                                            <span class="icon icon-right-arrow"></span>
+                                        </p>
+                                    </div>
+                                    <a href="#" class="a-link"></a>
+                                </div>
+                            </div>
+                            <div class="typ-horizontal">
+                                <div class="bs-grid-card set-bg">
+                                    <div class="img-wrap">
+                                        <img src="assets/images/stationery.jpg" class="fetch-img-src" alt="" />
+                                    </div>
+                                    <div class="icon-wrap">
+                                        <img src="assets/images/icon-stationary.svg" alt="icon-stationary" />
+                                    </div>
+                                    <div class="grid-info">
+                                        <h2 class="title">stationery</h2>
+                                        <p class="desc">
+                                            <span class="text">Paper, Notebooks</span>
+                                            <span class="icon icon-right-arrow"></span>
+                                        </p>
+                                    </div>
+                                    <a href="#" class="a-link"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cp-category">
+                        <div class="row typ-vertical">
+                            <div class="bs-grid-card set-bg">
+                                <div class="img-wrap">
+                                    <img src="assets/images/office-product-2.jpg" class="fetch-img-src" alt="" />
+                                </div>
+                                <div class="icon-wrap">
+                                    <img src="assets/images/icon-bedding.svg" alt="icon-bedding" />
+                                </div>
+                                <div class="grid-info">
+                                    <h2 class="title">bed Linen</h2>
+                                    <p class="desc">
+                                        <span class="text">Bedding, Duvets & Quilts</span>
+                                        <span class="icon icon-right-arrow"></span>
+                                    </p>
+                                </div>
+                                <a href="#" class="a-link"></a>
+                            </div>
+                            <div class="bs-grid-card set-bg">
+                                <div class="img-wrap">
+                                    <img src="assets/images/office-product-2.jpg" class="fetch-img-src" alt="" />
+                                </div>
+                                <div class="icon-wrap">
+                                    <img src="assets/images/icon-bedding.svg" alt="icon-bedding" />
+                                </div>
+                                <div class="grid-info">
+                                    <h2 class="title">bed Linen</h2>
+                                    <p class="desc">
+                                        <span class="text">Bedding, Duvets & Quilts</span>
+                                        <span class="icon icon-right-arrow"></span>
+                                    </p>
+                                </div>
+                                <a href="#" class="a-link"></a>
+                            </div>
+                            <div class="bs-grid-card set-bg">
+                                <div class="img-wrap">
+                                    <img src="assets/images/office-product-2.jpg" class="fetch-img-src" alt="" />
+                                </div>
+                                <div class="icon-wrap">
+                                    <img src="assets/images/icon-bedding.svg" alt="icon-bedding" />
+                                </div>
+                                <div class="grid-info">
+                                    <h2 class="title">bed Linen</h2>
+                                    <p class="desc">
+                                        <span class="text">Bedding, Duvets & Quilts</span>
+                                        <span class="icon icon-right-arrow"></span>
+                                    </p>
+                                </div>
+                                <a href="#" class="a-link"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cp-category">
+                        <div class="row">
+                            <div class="bs-grid-card set-bg">
+                                <div class="img-wrap">
+                                    <img src="assets/images/bath.jpg" class="fetch-img-src" alt="" />
+                                </div>
+                                <div class="icon-wrap">
+                                    <img src="assets/images/icon-bath.svg" alt="icon-bath" />
+                                </div>
+                                <div class="grid-info">
+                                    <h2 class="title">bath</h2>
+                                    <p class="desc">
+                                        <span class="text">Bath towels, Bathrobes</span>
+                                        <span class="icon icon-right-arrow"></span>
+                                    </p>
+                                </div>
+                                <a href="#" class="a-link"></a>
+                            </div>
+                            <div class="bs-grid-card set-bg">
+                                <div class="img-wrap">
+                                    <img src="assets/images/bath.jpg" class="fetch-img-src" alt="" />
+                                </div>
+                                <div class="icon-wrap">
+                                    <img src="assets/images/icon-bath.svg" alt="icon-bath" />
+                                </div>
+                                <div class="grid-info">
+                                    <h2 class="title">bath</h2>
+                                    <p class="desc">
+                                        <span class="text">Bath towels, Bathrobes</span>
+                                        <span class="icon icon-right-arrow"></span>
+                                    </p>
+                                </div>
+                                <a href="#" class="a-link"></a>
+                            </div>
+                            <div class="bs-grid-card set-bg">
+                                <div class="img-wrap">
+                                    <img src="assets/images/bath.jpg" class="fetch-img-src" alt="" />
+                                </div>
+                                <div class="icon-wrap">
+                                    <img src="assets/images/icon-bath.svg" alt="icon-bath" />
+                                </div>
+                                <div class="grid-info">
+                                    <h2 class="title">bath</h2>
+                                    <p class="desc">
+                                        <span class="text">Bath towels, Bathrobes</span>
+                                        <span class="icon icon-right-arrow"></span>
+                                    </p>
+                                </div>
+                                <a href="#" class="a-link"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bs-section">
+            <div class="container">
+                <div class="sec-head">
+                    <div class="title-desc-wrap">
+                        <h2 class="sec-title"> shop for <span class="highlight">Your office</span>
+                        </h2>
+                    </div>
+                </div>
+                <div class="sec-cont">
+                    <div class="cp-shop-for-office">
+                        <div class="product-wrap">
+                            <div class="swiper-container shop-for-office-slider">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="bs-product">
+                                            <div class="img-wrap">
+                                                <img src="assets/images/office-product-1.jpg" alt="">
+                                            </div>
+                                            <div class="info-wrap">
+                                                <div class="product-top-info">
+                                                    <h2 class="title">Trident Everyday
+                                                        Towel</h2>
+                                                    <p class="desc">Size - 40in x 72in </p>
+                                                    <div class="rating"><span class="icon icon-star"></span>4.5
+                                                    </div>
+                                                </div>
+                                                <div class="bottom-wrap">
+                                                    <div class="bs-price-wrap">
+                                                        <span class="new-price"><span class="icon icon-rupee"></span>
+                                                            <span class="amount">24,300</span></span>
+                                                        <span class="old-price"><span class="icon icon-rupee"></span>
+                                                            <span class="amount">34,300</span></span>
+                                                    </div>
+                                                    <div class="action-wrap">
+                                                        <button class="bs-btn btn-secondary">Add to cart</button>
+                                                        <button class="bs-btn">Buy now</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="bs-grid-card set-bg">
+                                            <div class="img-wrap">
+                                                <img src="assets/images/office-product-2.jpg" class="fetch-img-src"
+                                                    alt="">
+                                            </div>
+                                            <div class="grid-info">
+                                                <h2 class="title">paper</h2>
+                                                <p class="desc"><span class="text">VAP NSS Mapthilo</span> <span
+                                                        class="icon icon-right-arrow"></span>
+                                                </p>
+                                            </div>
+                                            <a href="#" class="a-link"></a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="bs-grid-card set-bg">
+                                            <div class="img-wrap">
+                                                <img src="assets/images/office-product-2.jpg" class="fetch-img-src"
+                                                    alt="">
+                                            </div>
+                                            <div class="grid-info">
+                                                <p class="desc"><span class="text">SS Mapthilo</span> <span
+                                                        class="icon icon-right-arrow"></span>
+                                                </p>
+                                            </div>
+                                            <a href="#" class="a-link"></a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="bs-product">
+                                            <div class="img-wrap">
+                                                <img src="assets/images/office-product-1.jpg" alt="">
+                                            </div>
+                                            <div class="info-wrap">
+                                                <div class="product-top-info">
+                                                    <h2 class="title">Trident Everyday
+                                                        Towel</h2>
+                                                    <p class="desc">Size - 40in x 72in </p>
+                                                    <div class="rating"><span class="icon icon-star"></span>4.5
+                                                    </div>
+                                                </div>
+                                                <div class="bottom-wrap">
+                                                    <div class="bs-price-wrap">
+                                                        <span class="new-price"><span class="icon icon-rupee"></span>
+                                                            <span class="amount">24,300</span></span>
+                                                        <span class="old-price"><span class="icon icon-rupee"></span>
+                                                            <span class="amount">34,300</span></span>
+                                                    </div>
+                                                    <div class="action-wrap">
+                                                        <button class="bs-btn btn-secondary">Add to cart</button>
+                                                        <button class="bs-btn">Buy now</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="desc-wrap">
+                            <h2 class="title">Maplitho, Copier paper & Notebooks</h2>
+                            <p class="desc">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry.
+                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                            <div class="act-wrap">
+                                <a href="#" class="bs-btn btn-brdr">Explore <span
+                                        class="icon icon-right-arrow"></span></a>
+                                <a href="#" class="bs-btn btn-brdr">Explore <span
+                                        class="icon icon-right-arrow"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bs-section">
+            <div class="container">
+                <div class="sec-head">
+                    <div class="title-desc-wrap">
+                        <h2 class="sec-title"> Best selling in <span class="highlight">bedsheets</span>
+                        </h2>
+                    </div>
+                    <a href="#" class="bs-btn btn-link"><span class="text">View all</span><span
+                            class="icon icon-right-arrow"></span></a>
+                </div>
+                <div class="sec-cont">
+                    <div class="swiper-container best-selling-bedsheets-slider highlight-product typ-bottom-arrow">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide highlight">
+                                <div class="bs-product typ-big set-bg">
+                                    <div class="img-wrap">
+                                        <img class="fetch-img-src" src="assets/images/bedsheet-product-1.jpg" alt="">
+                                    </div>
+                                    <div class="info-wrap">
+                                        <div class="product-top-info">
+                                            <h2 class="title">Trident Everyday
+                                                Towel</h2>
+                                            <p class="desc">Size - 40in x 72in </p>
+                                            <span class="tag">Quick Dry</span>
+                                        </div>
+                                        <div class="swatches-wrap">
+                                            <div class="set-available">
+                                                <ul class="set-list">
+                                                    <li class="set-item selected"><span class="set">2 PC SET</span>
+                                                    </li>
+                                                    <li class="set-item"><span class="set">4 PC SET</span></li>
+                                                    <li class="set-item"><span class="set">5 PC SET</span></li>
+                                                </ul>
+                                            </div>
+                                            <div class="color-used">
+                                                <span class="note">Pantone colors used in this product</span>
+                                                <ul class="list">
+                                                    <li class="color-item"><span class="color"></span></li>
+                                                    <li class="color-item"><span class="color"></span></li>
+                                                    <li class="color-item"><span class="color"></span></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="bottom-wrap">
+                                            <div class="bs-price-wrap">
+                                                <span class="new-price"><span class="icon icon-rupee"></span> <span
+                                                        class="amount">24,300</span></span>
+                                                <span class="old-price"><span class="icon icon-rupee"></span> <span
+                                                        class="amount">34,300</span></span>
+                                            </div>
+                                            <div class="action-wrap">
+                                                <button class="bs-btn btn-secondary">Add to cart</button>
+                                                <button class="bs-btn">Buy now</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <span class="prod-tag">best selling</span>
+                                    <span class="add-to-wishlist">
+                                        <span class="icon icon-wishlist"></span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="bs-product">
+                                    <div class="img-wrap">
+                                        <img src="assets/images/bedsheet-product-1.jpg" alt="">
+                                    </div>
+                                    <div class="info-wrap">
+                                        <div class="product-top-info">
+                                            <h2 class="title">Trident Everyday
+                                                Towel</h2>
+                                            <p class="desc">Size - 40in x 72in </p>
+                                            <div class="rating"><span class="icon icon-star"></span>4.5</div>
+                                        </div>
+                                        <div class="swatches-wrap">
+
+                                            <div class="color-used">
+                                                <span class="note">Pantone colors used in this product</span>
+                                                <ul class="list">
+                                                    <li class="color-item"><span class="color"></span></li>
+                                                    <li class="color-item"><span class="color"></span></li>
+                                                    <li class="color-item"><span class="color"></span></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="bottom-wrap">
+                                            <div class="bs-price-wrap">
+                                                <span class="new-price"><span class="icon icon-rupee"></span> <span
+                                                        class="amount">24,300</span></span>
+                                                <span class="old-price"><span class="icon icon-rupee"></span> <span
+                                                        class="amount">34,300</span></span>
+                                            </div>
+                                            <div class="action-wrap">
+                                                <button class="bs-btn btn-secondary">Add to cart</button>
+                                                <button class="bs-btn">Buy now</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <span class="prod-tag">best selling</span>
+                                    <span class="add-to-wishlist">
+                                        <span class="icon icon-wishlist"></span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="bs-product">
+                                    <div class="img-wrap">
+                                        <img src="assets/images/bedsheet-product-1.jpg" alt="">
+                                    </div>
+                                    <div class="info-wrap">
+                                        <div class="product-top-info">
+                                            <h2 class="title">Trident Everyday
+                                                Towel</h2>
+                                            <p class="desc">Size - 40in x 72in </p>
+                                            <span class="tag">Quick Dry</span>
+                                        </div>
+                                        <div class="swatches-wrap">
+                                            <div class="set-available">
+                                                <ul class="set-list">
+                                                    <li class="set-item selected"><span class="set">2 PC SET</span>
+                                                    </li>
+                                                    <li class="set-item"><span class="set">4 PC SET</span></li>
+                                                    <li class="set-item"><span class="set">5 PC SET</span></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="bottom-wrap">
+                                            <div class="bs-price-wrap">
+                                                <span class="new-price"><span class="icon icon-rupee"></span> <span
+                                                        class="amount">24,300</span></span>
+                                                <span class="old-price"><span class="icon icon-rupee"></span> <span
+                                                        class="amount">34,300</span></span>
+                                            </div>
+                                            <div class="action-wrap">
+                                                <button class="bs-btn btn-secondary">Add to cart</button>
+                                                <button class="bs-btn">Buy now</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <span class="prod-tag">best selling</span>
+                                    <span class="add-to-wishlist">
+                                        <span class="icon icon-wishlist"></span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="bs-product">
+                                    <div class="img-wrap">
+                                        <img src="assets/images/bedsheet-product-1.jpg" alt="">
+                                    </div>
+                                    <div class="info-wrap">
+                                        <div class="product-top-info">
+                                            <h2 class="title">Trident Everyday
+                                                Towel</h2>
+                                            <p class="desc">Size - 40in x 72in </p>
+                                            <div class="rating"><span class="icon icon-star"></span>4.5</div>
+                                        </div>
+                                        <div class="swatches-wrap">
+                                            <div class="set-available">
+                                                <ul class="set-list">
+                                                    <li class="set-item selected"><span class="set">2 PC SET</span>
+                                                    </li>
+                                                    <li class="set-item"><span class="set">4 PC SET</span></li>
+                                                    <li class="set-item"><span class="set">5 PC SET</span></li>
+                                                </ul>
+                                            </div>
+                                            <div class="color-used">
+                                                <span class="note">Pantone colors used in this product</span>
+                                                <ul class="list">
+                                                    <li class="color-item"><span class="color"></span></li>
+                                                    <li class="color-item"><span class="color"></span></li>
+                                                    <li class="color-item"><span class="color"></span></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="bottom-wrap">
+                                            <div class="bs-price-wrap">
+                                                <span class="new-price"><span class="icon icon-rupee"></span> <span
+                                                        class="amount">24,300</span></span>
+                                                <span class="old-price"><span class="icon icon-rupee"></span> <span
+                                                        class="amount">34,300</span></span>
+                                            </div>
+                                            <div class="action-wrap">
+                                                <button class="bs-btn btn-secondary">Add to cart</button>
+                                                <button class="bs-btn">Buy now</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <span class="prod-tag">best selling</span>
+                                    <span class="add-to-wishlist">
+                                        <span class="icon icon-wishlist"></span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="bs-product">
+                                    <div class="img-wrap">
+                                        <img src="assets/images/bedsheet-product-1.jpg" alt="">
+                                    </div>
+                                    <div class="info-wrap">
+                                        <div class="product-top-info">
+                                            <h2 class="title">Trident Everyday
+                                                Towel</h2>
+                                            <p class="desc">Size - 40in x 72in </p>
+                                            <span class="tag">Quick Dry</span>
+                                        </div>
+                                        <div class="swatches-wrap">
+                                            <div class="set-available">
+                                                <ul class="set-list">
+                                                    <li class="set-item selected"><span class="set">2 PC SET</span>
+                                                    </li>
+                                                    <li class="set-item"><span class="set">4 PC SET</span></li>
+                                                    <li class="set-item"><span class="set">5 PC SET</span></li>
+                                                </ul>
+                                            </div>
+                                            <div class="color-used">
+                                                <span class="note">Pantone colors used in this product</span>
+                                                <ul class="list">
+                                                    <li class="color-item"><span class="color"></span></li>
+                                                    <li class="color-item"><span class="color"></span></li>
+                                                    <li class="color-item"><span class="color"></span></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="bottom-wrap">
+                                            <div class="bs-price-wrap">
+                                                <span class="new-price"><span class="icon icon-rupee"></span> <span
+                                                        class="amount">24,300</span></span>
+                                                <span class="old-price"><span class="icon icon-rupee"></span> <span
+                                                        class="amount">34,300</span></span>
+                                            </div>
+                                            <div class="action-wrap">
+                                                <button class="bs-btn btn-secondary">Add to cart</button>
+                                                <button class="bs-btn">Buy now</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <span class="prod-tag">best selling</span>
+                                    <span class="add-to-wishlist">
+                                        <span class="icon icon-wishlist"></span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="bs-section">
+            <div class="container">
+                <div class="sec-head">
+                    <div class="title-desc-wrap">
+                        <h2 class="sec-title"> Flaunt your perfect <span class="highlight">beach wrap</span>
+                        </h2>
+                    </div>
+                    <a href="#" class="bs-btn btn-link"><span class="text">View all</span><span
+                            class="icon icon-right-arrow"></span></a>
+                </div>
+                <div class="sec-cont">
+                    <div class="swiper-container beach-wrap-slider typ-bottom-arrow">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="bs-product">
+                                    <div class="img-wrap">
+                                        <img class="fetch-img-src" src="assets/images/bedsheet-product-1.jpg" alt="">
+                                    </div>
+                                    <div class="info-wrap">
+                                        <div class="product-top-info">
+                                            <h2 class="title">Trident Everyday
+                                                Towel</h2>
+                                            <p class="desc">Size - 40in x 72in </p>
+                                            <span class="tag">Quick Dry</span>
+                                        </div>
+                                        <div class="swatches-wrap">
+                                            <div class="set-available">
+                                                <ul class="set-list">
+                                                    <li class="set-item selected"><span class="set">2 PC SET</span>
+                                                    </li>
+                                                    <li class="set-item"><span class="set">4 PC SET</span></li>
+                                                    <li class="set-item"><span class="set">5 PC SET</span></li>
+                                                </ul>
+                                            </div>
+                                            <div class="color-used">
+                                                <span class="note">Pantone colors used in this product</span>
+                                                <ul class="list">
+                                                    <li class="color-item"><span class="color"></span></li>
+                                                    <li class="color-item"><span class="color"></span></li>
+                                                    <li class="color-item"><span class="color"></span></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="bottom-wrap">
+                                            <div class="bs-price-wrap">
+                                                <span class="new-price"><span class="icon icon-rupee"></span> <span
+                                                        class="amount">24,300</span></span>
+                                                <span class="old-price"><span class="icon icon-rupee"></span> <span
+                                                        class="amount">34,300</span></span>
+                                            </div>
+                                            <div class="action-wrap">
+                                                <button class="bs-btn btn-secondary">Add to cart</button>
+                                                <button class="bs-btn">Buy now</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <span class="prod-tag">best selling</span>
+                                    <span class="add-to-wishlist">
+                                        <span class="icon icon-wishlist"></span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="bs-product">
+                                    <div class="img-wrap">
+                                        <img src="assets/images/bedsheet-product-1.jpg" alt="">
+                                    </div>
+                                    <div class="info-wrap">
+                                        <div class="product-top-info">
+                                            <h2 class="title">Trident Everyday
+                                                Towel</h2>
+                                            <p class="desc">Size - 40in x 72in </p>
+                                            <div class="rating"><span class="icon icon-star"></span>4.5</div>
+                                        </div>
+                                        <div class="swatches-wrap">
+
+                                            <div class="color-used">
+                                                <span class="note">Pantone colors used in this product</span>
+                                                <ul class="list">
+                                                    <li class="color-item"><span class="color"></span></li>
+                                                    <li class="color-item"><span class="color"></span></li>
+                                                    <li class="color-item"><span class="color"></span></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="bottom-wrap">
+                                            <div class="bs-price-wrap">
+                                                <span class="new-price"><span class="icon icon-rupee"></span> <span
+                                                        class="amount">24,300</span></span>
+                                                <span class="old-price"><span class="icon icon-rupee"></span> <span
+                                                        class="amount">34,300</span></span>
+                                            </div>
+                                            <div class="action-wrap">
+                                                <button class="bs-btn btn-secondary">Add to cart</button>
+                                                <button class="bs-btn">Buy now</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <span class="prod-tag">best selling</span>
+                                    <span class="add-to-wishlist">
+                                        <span class="icon icon-wishlist"></span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="bs-product">
+                                    <div class="img-wrap">
+                                        <img src="assets/images/bedsheet-product-1.jpg" alt="">
+                                    </div>
+                                    <div class="info-wrap">
+                                        <div class="product-top-info">
+                                            <h2 class="title">Trident Everyday
+                                                Towel</h2>
+                                            <p class="desc">Size - 40in x 72in </p>
+                                            <span class="tag">Quick Dry</span>
+                                        </div>
+                                        <div class="swatches-wrap">
+                                            <div class="set-available">
+                                                <ul class="set-list">
+                                                    <li class="set-item selected"><span class="set">2 PC SET</span>
+                                                    </li>
+                                                    <li class="set-item"><span class="set">4 PC SET</span></li>
+                                                    <li class="set-item"><span class="set">5 PC SET</span></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="bottom-wrap">
+                                            <div class="bs-price-wrap">
+                                                <span class="new-price"><span class="icon icon-rupee"></span> <span
+                                                        class="amount">24,300</span></span>
+                                                <span class="old-price"><span class="icon icon-rupee"></span> <span
+                                                        class="amount">34,300</span></span>
+                                            </div>
+                                            <div class="action-wrap">
+                                                <button class="bs-btn btn-secondary">Add to cart</button>
+                                                <button class="bs-btn">Buy now</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <span class="prod-tag">best selling</span>
+                                    <span class="add-to-wishlist">
+                                        <span class="icon icon-wishlist"></span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="bs-product">
+                                    <div class="img-wrap">
+                                        <img src="assets/images/bedsheet-product-1.jpg" alt="">
+                                    </div>
+                                    <div class="info-wrap">
+                                        <div class="product-top-info">
+                                            <h2 class="title">Trident Everyday
+                                                Towel</h2>
+                                            <p class="desc">Size - 40in x 72in </p>
+                                            <div class="rating"><span class="icon icon-star"></span>4.5</div>
+                                        </div>
+                                        <div class="swatches-wrap">
+                                            <div class="set-available">
+                                                <ul class="set-list">
+                                                    <li class="set-item selected"><span class="set">2 PC SET</span>
+                                                    </li>
+                                                    <li class="set-item"><span class="set">4 PC SET</span></li>
+                                                    <li class="set-item"><span class="set">5 PC SET</span></li>
+                                                </ul>
+                                            </div>
+                                            <div class="color-used">
+                                                <span class="note">Pantone colors used in this product</span>
+                                                <ul class="list">
+                                                    <li class="color-item"><span class="color"></span></li>
+                                                    <li class="color-item"><span class="color"></span></li>
+                                                    <li class="color-item"><span class="color"></span></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="bottom-wrap">
+                                            <div class="bs-price-wrap">
+                                                <span class="new-price"><span class="icon icon-rupee"></span> <span
+                                                        class="amount">24,300</span></span>
+                                                <span class="old-price"><span class="icon icon-rupee"></span> <span
+                                                        class="amount">34,300</span></span>
+                                            </div>
+                                            <div class="action-wrap">
+                                                <button class="bs-btn btn-secondary">Add to cart</button>
+                                                <button class="bs-btn">Buy now</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <span class="prod-tag">best selling</span>
+                                    <span class="add-to-wishlist">
+                                        <span class="icon icon-wishlist"></span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="bs-product">
+                                    <div class="img-wrap">
+                                        <img src="assets/images/bedsheet-product-1.jpg" alt="">
+                                    </div>
+                                    <div class="info-wrap">
+                                        <div class="product-top-info">
+                                            <h2 class="title">Trident Everyday
+                                                Towel</h2>
+                                            <p class="desc">Size - 40in x 72in </p>
+                                            <span class="tag">Quick Dry</span>
+                                        </div>
+                                        <div class="swatches-wrap">
+                                            <div class="set-available">
+                                                <ul class="set-list">
+                                                    <li class="set-item selected"><span class="set">2 PC SET</span>
+                                                    </li>
+                                                    <li class="set-item"><span class="set">4 PC SET</span></li>
+                                                    <li class="set-item"><span class="set">5 PC SET</span></li>
+                                                </ul>
+                                            </div>
+                                            <div class="color-used">
+                                                <span class="note">Pantone colors used in this product</span>
+                                                <ul class="list">
+                                                    <li class="color-item"><span class="color"></span></li>
+                                                    <li class="color-item"><span class="color"></span></li>
+                                                    <li class="color-item"><span class="color"></span></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="bottom-wrap">
+                                            <div class="bs-price-wrap">
+                                                <span class="new-price"><span class="icon icon-rupee"></span> <span
+                                                        class="amount">24,300</span></span>
+                                                <span class="old-price"><span class="icon icon-rupee"></span> <span
+                                                        class="amount">34,300</span></span>
+                                            </div>
+                                            <div class="action-wrap">
+                                                <button class="bs-btn btn-secondary">Add to cart</button>
+                                                <button class="bs-btn">Buy now</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <span class="prod-tag">best selling</span>
+                                    <span class="add-to-wishlist">
+                                        <span class="icon icon-wishlist"></span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="bs-section">
+            <div class="container">
+                <div class="sec-head">
+                    <div class="title-desc-wrap">
+                        <h2 class="sec-title"> Explore our
+                            <span class="highlight">Seasonal Collections</span>
+                        </h2>
+                    </div>
+                    <a href="#" class="bs-btn btn-link"><span class="text">Shop all</span><span
+                            class="icon icon-right-arrow"></span></a>
+                </div>
+                <div class="sec-cont">
+                    <div class="swiper-container seasonal-collections-slider typ-bottom-arrow">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="bs-offer-card">
+                                    <div class="img-wrap">
+                                        <img src="assets/images/trending-deal-1.jpg" alt="">
+                                    </div>
+                                    <div class="info-wrap">
+                                        <span class="icon-wrap">
+                                            <img src="assets/images/spring.svg" alt="">
+                                        </span>
+                                        <h2 class="offer-title">Spring</h2>
+                                        <p class="desc">Minimum order 1499/-</p>
+                                    </div>
+                                    <a href="#" class="a-link"></a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="bs-offer-card">
+                                    <div class="img-wrap">
+                                        <img src="assets/images/trending-deal-2.jpg" alt="">
+                                    </div>
+                                    <div class="info-wrap">
+                                        <span class="icon-wrap">
+                                            <img src="assets/images/summer.svg" alt="">
+                                        </span>
+                                        <h2 class="offer-title">Summer</h2>
+                                        <p class="desc">Trident everyday</p>
+                                    </div>
+                                    <a href="#" class="a-link"></a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="bs-offer-card">
+                                    <div class="img-wrap">
+                                        <img src="assets/images/trending-deal-3.jpg" alt="">
+                                    </div>
+                                    <div class="info-wrap">
+                                        <span class="icon-wrap">
+                                            <img src="assets/images/fall.svg" alt="">
+                                        </span>
+                                        <h2 class="offer-title">Fall</h2>
+                                        <p class="desc">Trident bed linen</p>
+                                    </div>
+                                    <a href="#" class="a-link"></a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="bs-offer-card">
+                                    <div class="img-wrap">
+                                        <img src="assets/images/trending-deal-1.jpg" alt="">
+                                    </div>
+                                    <div class="info-wrap">
+                                        <span class="icon-wrap">
+                                            <img src="assets/images/spring.svg" alt="">
+                                        </span>
+                                        <h2 class="offer-title">Spring</h2>
+                                        <p class="desc">Minimum order 1499/-</p>
+                                    </div>
+                                    <a href="#" class="a-link"></a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="bs-offer-card">
+                                    <div class="img-wrap">
+                                        <img src="assets/images/trending-deal-2.jpg" alt="">
+                                    </div>
+                                    <div class="info-wrap">
+                                        <span class="icon-wrap">
+                                            <img src="assets/images/summer.svg" alt="">
+                                        </span>
+                                        <h2 class="offer-title">Summer</h2>
+                                        <p class="desc">Trident everyday</p>
+                                    </div>
+                                    <a href="#" class="a-link"></a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="bs-offer-card">
+                                    <div class="img-wrap">
+                                        <img src="assets/images/trending-deal-3.jpg" alt="">
+                                    </div>
+                                    <div class="info-wrap">
+                                        <span class="icon-wrap">
+                                            <img src="assets/images/fall.svg" alt="">
+                                        </span>
+                                        <h2 class="offer-title">Fall</h2>
+                                        <p class="desc">Trident bed linen</p>
+                                    </div>
+                                    <a href="#" class="a-link"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bs-section">
+            <div class="container">
+                <div class="sec-head">
+                    <div class="title-desc-wrap">
+                        <h2 class="sec-title"> Shop by <span class="highlight">Brand</span>
+                        </h2>
+                    </div>
+                    <a href="#" class="bs-btn btn-link"><span class="text">SHOP ALL BRANDS</span><span
+                            class="icon icon-right-arrow"></span></a>
+                </div>
+                <div class="sec-cont">
+                    <div class="swiper-container shop-by-brand-slider typ-bottom-arrow">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="bs-shop-by-brand">
+                                    <div class="brand-logo">
+                                        <img src="assets/images/brand-1.jpg" alt="">
+                                    </div>
+                                    <h3 class="brand-name">Trident Everyday</h3>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="bs-shop-by-brand">
+                                    <div class="brand-logo">
+                                        <img src="assets/images/brand-2.jpg" alt="">
+                                    </div>
+                                    <h3 class="brand-name">Trident His & Her</h3>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="bs-shop-by-brand">
+                                    <div class="brand-logo">
+                                        <img src="assets/images/brand-3.jpg" alt="">
+                                    </div>
+                                    <h3 class="brand-name">Trident Indulgence</h3>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="bs-shop-by-brand">
+                                    <div class="brand-logo">
+                                        <img src="assets/images/brand-4.jpg" alt="">
+                                    </div>
+                                    <h3 class="brand-name">Trident Bath Buddy</h3>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="bs-shop-by-brand">
+                                    <div class="brand-logo">
+                                        <img src="assets/images/brand-1.jpg" alt="">
+                                    </div>
+                                    <h3 class="brand-name">Trident Everyday</h3>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="bs-shop-by-brand">
+                                    <div class="brand-logo">
+                                        <img src="assets/images/brand-2.jpg" alt="">
+                                    </div>
+                                    <h3 class="brand-name">Trident His & Her</h3>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="bs-shop-by-brand">
+                                    <div class="brand-logo">
+                                        <img src="assets/images/brand-3.jpg" alt="">
+                                    </div>
+                                    <h3 class="brand-name">Trident Indulgence</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bs-section">
+            <div class="container">
+                <div class="sec-head">
+                    <div class="title-desc-wrap">
+                        <h2 class="sec-title"> Range of <span class="highlight">Trending deals</span>
+                        </h2>
+                    </div>
+                    <a href="#" class="bs-btn btn-link"><span class="text">View all</span><span
+                            class="icon icon-right-arrow"></span></a>
+                </div>
+                <div class="sec-cont">
+                    <div class="swiper-container trending-deals-slider typ-bottom-arrow">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="bs-offer-card">
+                                    <div class="img-wrap">
+                                        <img src="assets/images/trending-deal-1.jpg" alt="">
+                                    </div>
+                                    <span class="label">new launch</span>
+                                    <div class="info-wrap">
+                                        <span class="offer-type">Upto</span>
+                                        <h2 class="offer-title">25% off</h2>
+                                        <p class="desc">Minimum order 1499/-</p>
+                                        <a href="#" class="tnc-link">T&C apply*</a>
+                                    </div>
+                                    <a href="#" class="a-link"></a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="bs-offer-card">
+                                    <div class="img-wrap">
+                                        <img src="assets/images/trending-deal-2.jpg" alt="">
+                                    </div>
+                                    <div class="info-wrap">
+                                        <span class="offer-type">Upto</span>
+                                        <h2 class="offer-title">40% off</h2>
+                                        <p class="desc">Trident everyday</p>
+                                        <a href="#" class="tnc-link">T&C apply*</a>
+                                    </div>
+                                    <a href="#" class="a-link"></a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="bs-offer-card">
+                                    <div class="img-wrap">
+                                        <img src="assets/images/trending-deal-3.jpg" alt="">
+                                    </div>
+                                    <div class="info-wrap">
+                                        <span class="offer-type">Exclusive collection</span>
+                                        <h2 class="offer-title">Buy 1 Get 1</h2>
+                                        <p class="desc">Trident bed linen</p>
+                                        <a href="#" class="tnc-link">T&C apply*</a>
+                                    </div>
+                                    <a href="#" class="a-link"></a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="bs-offer-card">
+                                    <div class="img-wrap">
+                                        <img src="assets/images/trending-deal-1.jpg" alt="">
+                                    </div>
+                                    <span class="label">new launch</span>
+                                    <div class="info-wrap">
+                                        <span class="offer-type">Upto</span>
+                                        <h2 class="offer-title">25% off</h2>
+                                        <p class="desc">Minimum order 1499/-</p>
+                                        <a href="#" class="tnc-link">T&C apply*</a>
+                                    </div>
+                                    <a href="#" class="a-link"></a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="bs-offer-card">
+                                    <div class="img-wrap">
+                                        <img src="assets/images/trending-deal-2.jpg" alt="">
+                                    </div>
+                                    <div class="info-wrap">
+                                        <span class="offer-type">Upto</span>
+                                        <h2 class="offer-title">40% off</h2>
+                                        <p class="desc">Trident everyday</p>
+                                        <a href="#" class="tnc-link">T&C apply*</a>
+                                    </div>
+                                    <a href="#" class="a-link"></a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="bs-offer-card">
+                                    <div class="img-wrap">
+                                        <img src="assets/images/trending-deal-3.jpg" alt="">
+                                    </div>
+                                    <div class="info-wrap">
+                                        <span class="offer-type">Exclusive collection</span>
+                                        <h2 class="offer-title">Buy 1 Get 1</h2>
+                                        <p class="desc">Trident bed linen</p>
+                                        <a href="#" class="tnc-link">T&C apply*</a>
+                                    </div>
+                                    <a href="#" class="a-link"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bs-section">
+            <div class="container">
+                <div class="comp-wrap">
+                    <button class="bs-btn">Default btn</button>
+                    <button class="bs-btn btn-secondary">secondary btn</button>
+                </div>
+                <div class="bs-banner">
+                    <div class="col-1 column">
+                        <div class="banner-slide">
+                            <div class="img-wrap">
+                                <img src="assets/images/slide-1.jpg" alt="">
+                            </div>
+                            <div class="info-wrap">
+                                <span class="title">Variation</span>
+                                <h2 class="sub-title">Greys & Shades</h2>
+                                <p class="sub-text"><span class="text">Huge range of color variations</span>
+                                    <span class="icon icon-right-arrow"></span>
+                                </p>
+                            </div>
+                            <a href="#" class="link"></a>
+                        </div>
+                        <div class="banner-slide">
+                            <div class="img-wrap">
+                                <img src="assets/images/slide-2.jpg" alt="">
+                            </div>
+                            <div class="info-wrap">
+                                <span class="title">rugs</span>
+                                <h2 class="sub-title">Limited home rugs edition</h2>
+                                <p class="sub-text"><span class="text">Explore the collection</span>
+                                    <span class="icon icon-right-arrow"></span>
+                                </p>
+                            </div>
+                            <a href="#" class="link"></a>
+                        </div>
+                    </div>
+                    <div class="col-2 column">
+                        <div class="banner-slide">
+                            <div class="img-wrap">
+                                <img src="assets/images/slide-3.jpg" alt="">
+                            </div>
+                            <div class="info-wrap">
+                                <span class="title">love</span>
+                                <h2 class="sub-title">Make your home with love</h2>
+                                <p class="sub-text"><span class="text">Everyday essentials under Rs.599</span>
+                                    <span class="icon icon-right-arrow"></span>
+                                </p>
+                            </div>
+                            <a href="#" class="link"></a>
+                        </div>
+                        <div class="banner-slide">
+                            <div class="img-wrap">
+                                <img src="assets/images/slide-4.jpg" alt="">
+                            </div>
+                            <div class="info-wrap">
+                                <span class="title">bath</span>
+                                <h2 class="sub-title">Best deals on bath linen</h2>
+                                <p class="sub-text"><span class="text">Deals valid till Feb 6, 2021</span>
+                                    <span class="icon icon-right-arrow"></span>
+                                </p>
+                            </div>
+                            <a href="#" class="link"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bs-section">
+            <div class="container">
+                <div class="cp-shop-by-theme">
+                    <div class="left-wrap">
+                        <img src="assets/images/theme-big-img.jpg" alt="">
+                    </div>
+                    <div class="right-wrap">
+                        <div class="sec-head">
+                            <div class="title-desc-wrap">
+                                <h2 class="sec-title"> Shop by <span class="highlight">Theme</span>
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="product-options">
+                            <div class="product-cat">
+                                <div class="radio-list">
+                                    <div class="bs-radio">
+                                        <input type="radio" id="test1" name="radio-group">
+                                        <label for="test1">Bathroom</label>
+                                    </div>
+                                    <div class="bs-radio">
+                                        <input type="radio" id="test2" name="radio-group">
+                                        <label for="test2">Bedroom</label>
+                                    </div>
+                                    <div class="bs-radio">
+                                        <input type="radio" id="test3" name="radio-group">
+                                        <label for="test3">Kitchen</label>
+                                    </div>
+                                    <div class="bs-radio">
+                                        <input type="radio" id="test4" name="radio-group">
+                                        <label for="test4">Garden</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-type">
+                                <div class="swiper-container product-type-slider">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <input type="radio" name="product-type" id="p-type-1">
+                                            <label for="p-type-1">
+                                                <div class="icon-wrap">
+                                                    <img src="assets/images/feature-1.jpg" alt="">
+                                                </div>
+                                                <h4 class="p-type-name">Sustainability</h4>
+                                            </label>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <input type="radio" name="product-type" id="p-type-2">
+                                            <label for="p-type-2">
+                                                <div class="icon-wrap">
+                                                    <img src="assets/images/feature-2.jpg" alt="">
+                                                </div>
+                                                <h4 class="p-type-name">Luxury</h4>
+                                            </label>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <input type="radio" name="product-type" id="p-type-3">
+                                            <label for="p-type-3">
+                                                <div class="icon-wrap">
+                                                    <img src="assets/images/feature-3.jpg" alt="">
+                                                </div>
+                                                <h4 class="p-type-name">kids</h4>
+                                            </label>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <input type="radio" name="product-type" id="p-type-4">
+                                            <label for="p-type-4">
+                                                <div class="icon-wrap">
+                                                    <img src="assets/images/feature-1.jpg" alt="">
+                                                </div>
+                                                <h4 class="p-type-name">Luxury</h4>
+                                            </label>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <input type="radio" name="product-type" id="p-type-5">
+                                            <label for="p-type-5">
+                                                <div class="icon-wrap">
+                                                    <img src="assets/images/feature-2.jpg" alt="">
+                                                </div>
+                                                <h4 class="p-type-name">Floral</h4>
+                                            </label>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <input type="radio" name="product-type" id="p-type-6">
+                                            <label for="p-type-6">
+                                                <div class="icon-wrap">
+                                                    <img src="assets/images/feature-3.jpg" alt="">
+                                                </div>
+                                                <h4 class="p-type-name">Sustainability</h4>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                            </div>
+                            <div class="left-wrap">
+                                <img src="assets/images/theme-big-img.jpg" alt="">
+                            </div>
+                            <div class="product-desc">
+                                <p class="desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum,
+                                    sequi!
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, similique.
+                                </p>
+                            </div>
+                            <div class="related-product">
+                                <div class="swiper-container typ-bottom-arrow related-product-slider">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="sr-no">01</div>
+                                            <div class="bs-product">
+                                                <div class="img-wrap">
+                                                    <img src="assets/images/theme-product-1.jpg" alt="">
+                                                </div>
+                                                <div class="info-wrap">
+                                                    <h2 class="title">Trident Everyday Bedsheet</h2>
+                                                    <p class="desc">Size - 00in x 00in</p>
+                                                    <div class="bs-price-wrap">
+                                                        <span class="new-price"><span
+                                                                class="icon icon-rupee"></span><span
+                                                                class="amount">24,990</span></span>
+                                                    </div>
+                                                    <div class="rating"><span class="icon icon-star"></span>4.5
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="sr-no">02</div>
+                                            <div class="bs-product">
+                                                <div class="img-wrap">
+                                                    <img src="assets/images/theme-product-1.jpg" alt="">
+                                                </div>
+                                                <div class="info-wrap">
+                                                    <h2 class="title">Trident Everyday Bedsheet</h2>
+                                                    <p class="desc">Size - 00in x 00in</p>
+                                                    <div class="bs-price-wrap">
+                                                        <span class="new-price"><span
+                                                                class="icon icon-rupee"></span><span
+                                                                class="amount">24,990</span></span>
+                                                    </div>
+                                                    <div class="rating"><span class="icon icon-star"></span>4.5
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="sr-no">03</div>
+                                            <div class="bs-product">
+                                                <div class="img-wrap">
+                                                    <img src="assets/images/theme-product-1.jpg" alt="">
+                                                </div>
+                                                <div class="info-wrap">
+                                                    <h2 class="title">Trident Everyday Bedsheet</h2>
+                                                    <p class="desc">Size - 00in x 00in</p>
+                                                    <div class="bs-price-wrap">
+                                                        <span class="new-price"><span
+                                                                class="icon icon-rupee"></span><span
+                                                                class="amount">24,990</span></span>
+                                                    </div>
+                                                    <div class="rating"><span class="icon icon-star"></span>4.5
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-button-next"></div>
+                                    <div class="swiper-button-prev"></div>
+                                    <div class="swiper-pagination"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="cp-footer">
+                <div class="top-links">
+                    <div class="container">
+                        <div class="footer-inner">
+                            <div class="column-1">
+                                <ul class="footer-links">
+                                    <li class="item">
+                                        <div class="accord-cont">
+                                            <h3 class="title">TRIDENT GROUP</h3>
+                                            <ul class="list">
+                                                <li class="link-item"><a href="#" class="link">About Us</a></li>
+                                                <li class="link-item"><a href="#" class="link">Partner CompaniesOur
+                                                        Clients</a>
+                                                </li>
+                                                <li class="link-item"><a href="#" class="link">Our Exclusive
+                                                        Stores</a>
+                                                </li>
+                                                <li class="link-item"><a href="#" class="link">Locate Us</a></li>
+                                                <li class="link-item"><a href="#" class="link">Contact Us</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="item">
+                                        <div class="accord-cont">
+                                            <h3 class="title">bedding</h3>
+                                            <ul class="list">
+                                                <li class="link-item"><a href="#" class="link">Bedsheets</a></li>
+                                                <li class="link-item"><a href="#" class="link">Bedding Sets</a></li>
+                                                <li class="link-item"><a href="#" class="link">Blankets / Quilts</a>
+                                                </li>
+                                                <li class="link-item"><a href="#" class="link">Pillow & Pillow
+                                                        Covers</a>
+                                                </li>
+                                                <li class="link-item"><a href="#" class="link">Bed Covers</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="item">
+                                        <div class="accord-cont">
+                                            <h3 class="title">bath</h3>
+                                            <ul class="list">
+                                                <li class="link-item"><a href="#" class="link"> Batuh Towels</a>
+                                                </li>
+                                                <li class="link-item"><a href="#" class="link">Hand & Face
+                                                        Towels</a>
+                                                </li>
+                                                <li class="link-item"><a href="#" class="link">Beach Towels</a></li>
+                                                <li class="link-item"><a href="#" class="link">Towel Sets</a></li>
+                                                <li class="link-item"><a href="#" class="link">Batrhrobes</a></li>
+                                                <li class="link-item"><a href="#" class="link">Bath Rugs</a></li>
+                                                <li class="link-item"><a href="#" class="link">Wash & Care</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="item">
+                                        <div class="accord-cont">
+                                            <h3 class="title">Stationary</h3>
+                                            <ul class="list">
+                                                <li class="link-item"><a href="#" class="link">Mapthilo Paper</a>
+                                                </li>
+                                                <li class="link-item"><a href="#" class="link">Copier Paper</a></li>
+                                                <li class="link-item"><a href="#" class="link">Notebooks</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="item">
+                                        <div class="accord-cont">
+                                            <h3 class="title">FLOORING</h3>
+                                            <ul class="list">
+                                                <li class="link-item"><a href="#" class="link">Carpets</a></li>
+                                                <li class="link-item"><a href="#" class="link">Floor Mats</a></li>
+                                                <li class="link-item"><a href="#" class="link">Door Mats</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="column-2">
+                                <ul class="footer-links">
+                                    <li class="item">
+                                        <div class="accord-cont">
+                                            <h3 class="title">HOME DECOR</h3>
+                                            <ul class="list">
+                                                <li class="link-item"><a href="#" class="link">Cusion Covers</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="item">
+                                        <div class="accord-cont last">
+                                            <h3 class="title">GIFTING</h3>
+                                            <ul class="list">
+                                                <li class="link-item"><a href="#" class="link">By Occassion</a></li>
+                                                <li class="link-item"><a href="#" class="link">By Gender</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="item">
+                                        <div class="external-link">
+                                            <ul class="list">
+                                                <li class="link-item"><a href="#" class="title">CRAZINESS AT
+                                                        TRIDENT</a>
+                                                </li>
+                                                <li class="link-item"><a href="#" class="title">YARN</a></li>
+                                                <li class="link-item"><a href="#" class="title">CHEMICAL</a></li>
+                                                <li class="link-item"><a href="#" class="title">ENERGY</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="item">
+                                        <div class="social-links">
+                                            <h3 class="title">FOLLOW US ON</h3>
+                                            <ul class="list">
+                                                <li class="link-item"><a href="https://www.facebook.com/Trident.Group/"
+                                                        class="link"><span class="icon icon-fb"></span></a></li>
+                                                <li class="link-item"><a href="https://twitter.com/tridentindia"
+                                                        class="link"><span class="icon icon-tw"></span></a></li>
+                                                <li class="link-item"><a href="http://careers.tridentindia.com/"
+                                                        class="link"><span class="icon icon-g-plus"></span></a></li>
+                                                <li class="link-item"><a
+                                                        href="https://www.youtube.com/channel/UCQJDQ-unCmSepoKVYS4lL7g"
+                                                        class="link"><span class="icon icon-yt"></span></a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom-link">
+                    <div class="container">
+                        <ul class="list">
+                            <li class="item"><a href="#" class="link">SITEMAP</a></li>
+                            <li class="item"><a href="#" class="link">DISCLAIMER</a></li>
+                            <li class="item"><a href="#" class="link">TERMS & CONDITIONS </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </main>
+
+    <script src="assets/js/jquery-3.1.1.min.js"></script>
+    <script src="assets/js/swiper.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+
+</body>
+
+</html>

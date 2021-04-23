@@ -1,0 +1,117 @@
+.bs-btn {
+    color: $clr-white;
+    background: $clr-h1;
+    font-family: $font1;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 0.5rem 1.2rem 0.7rem;
+    border: 1px solid $clr-h1;
+    transition: all 0.2s;
+    font-size: 1.8rem;
+    font-weight: $font-medium;
+    outline: 0;
+
+    &:hover,
+    &:active,
+    &:focus {
+        outline: 0;
+    }
+
+    &:hover {
+        background: $clr-primary;
+        border-color: $clr-primary;
+    }
+
+    &.btn-secondary {
+        color: $clr-h1;
+        background: $clr-white;
+
+        &:hover {
+            background: $clr-primary;
+            color: $clr-white;
+            border-color: $clr-primary;
+        }
+    }
+
+    &.btn-link {
+        display: flex;
+        align-items: center;
+        background: transparent;
+        color: $clr-primary;
+        border: 0;
+        padding: 0.6rem 0;
+
+        .icon {
+            margin-left: 0.4rem;
+            transition: all 0.3s;
+
+            &:before {
+                font-weight: bold;
+            }
+        }
+
+        &:hover {
+            color: $clr-h1;
+
+            .icon {
+                transform: translateX(4px);
+            }
+        }
+    }
+
+    &.btn-brdr {
+        background: transparent;
+        border: 2px dashed $clr-h2;
+        color: $clr-h2;
+        min-width: 16.5rem;
+        z-index: 0;
+        max-width: 16.5rem;
+        padding: 0.8rem 1rem;
+        display: flex;
+        align-items: center;
+        position: relative;
+
+        &:before {
+            content: "";
+            bottom: 0;
+            right: 0;
+            left: 0;
+            top: 100%;
+            transition: all 0.2s;
+            background: $clr-primary;
+            position: absolute;
+            z-index: -1;
+        }
+
+        .icon {
+            margin-left: auto;
+            font-weight: bold;
+        }
+
+        &:hover {
+            color: $clr-white;
+            border-color: $clr-primary;
+
+            &:before {
+                top: 0;
+            }
+        }
+
+        &.typ-white {
+            border-color: $clr-white;
+            color: $clr-white;
+        }
+    }
+}
+
+@media screen and (max-width:$xs) {
+    .bs-btn {
+        font-size: 1.4rem;
+        padding: 0.6rem 1rem;
+
+        &.btn-brdr {
+            min-width: 13rem;
+            max-width: 13rem;
+        }
+    }
+}
