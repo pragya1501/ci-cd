@@ -1,0 +1,25 @@
+name: ci-cd-setup
+on:
+  push:
+    branches:
+      - feature/test-ci-cd
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+      - name: setting up env
+        env:
+          HOSTNAME: ${{ secrets.HOSTNAME }}
+          USERNAME: ${{ secrets.USERNAME }}
+          PASSWORD: ${{ secrets.PASSWORD }}
+          VERSION: ${{ secrets.VERSION }}   
+        run: |
+          npm install
+          npm run compile:js
+          npm run compile:scss
+          npm run compile:fonts
+          node node_modules/.bin/dwupload --hostname ${HOSTNAME} --username ${USERNAME} --password "${PASSWORD}" --code-version ${VERSION} --cartridge cartridges/*
+
+

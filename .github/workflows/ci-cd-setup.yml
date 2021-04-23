@@ -1,0 +1,21 @@
+name: ci-cd-setup
+on:
+  pull_request:
+    branches:
+      - feature/test-ci-cd
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+      - run: |
+          npm install
+
+          npm install -g dwupload
+          node node_modules/.bin/dwupload --hostname ${HOSTNAME} --username ${USERNAME} --password "${PASSWORD}" --cartridge cartridges/app_storefront_base
+          node node_modules/.bin/dwupload --hostname ${HOSTNAME} --username ${USERNAME} --password "${PASSWORD}" --cartridge cartridges/modules
+
+
+
+ node node_modules/.bin/dwupload --hostname bgqf-001.sandbox.us01.dx.commercecloud.salesforce.com --username pragysingh@merkleinc.com --password "Pragsjan@9099" --code-version test --cartridge cartridges/* 
