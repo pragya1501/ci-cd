@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/pragya1501/ci-cd#readme",
   "dependencies": {
+    "dwupload": "^3.8.2",
     "express": "^4.17.1"
   }
 }
